@@ -1,13 +1,13 @@
-name = "Thermal Extra"
+name = "Thermal: Extra"
 filename = "ThermalExtra-3.3.0-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a715bdd28d3aa8fbb50dfaa5bfa456e7481a2bf5"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/QejnMYJo/versions/KDqr1s3P/ThermalExtra-3.3.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "5248adddd0a9bdec79ba5d4131d1b85d2e415993688624a7d6398efcae130b126882550cf111cd335b0ae33e1a32a23615c0a97d15b9d52153375a045143ccbc"
 
 [update]
-[update.curseforge]
-file-id = 7162463
-project-id = 573674
+[update.modrinth]
+mod-id = "QejnMYJo"
+version = "KDqr1s3P"

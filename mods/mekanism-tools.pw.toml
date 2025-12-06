@@ -3,11 +3,11 @@ filename = "MekanismTools-1.20.1-10.4.16.80.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0d22b1cc01a33702f1b9e17b26cc55e233a4e7ff"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/tqQpq1lt/versions/VzpFbUpF/MekanismTools-1.20.1-10.4.16.80.jar"
+hash-format = "sha512"
+hash = "23384cd2fe7572080004632cf5534b9aca22ea7a8a15b4a5ec34ff43851bc5c6bd36e18a5e76da70954c1c629ebef19bfd9a4a343601f8775d537798a48f2296"
 
 [update]
-[update.curseforge]
-file-id = 6552915
-project-id = 268567
+[update.modrinth]
+mod-id = "tqQpq1lt"
+version = "VzpFbUpF"

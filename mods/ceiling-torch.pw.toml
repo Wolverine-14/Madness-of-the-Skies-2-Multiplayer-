@@ -3,11 +3,11 @@ filename = "ceilingtorch-1.20.1-1.32.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f8f40cf396088ed58afae7277a468166504427bb"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/V1XQ9Kbq/versions/5g6JI9wo/ceilingtorch-1.20.1-1.32.1.jar"
+hash-format = "sha512"
+hash = "a857e23ac2891eaeedcd4d215d26f5c54a5f9a4ad93c9e866f0c6a6522600f5b6cd0491f0e3a0e24ea2c07f64749aa6294ddbf38aed13b4446ab549de2011a61"
 
 [update]
-[update.curseforge]
-file-id = 6817142
-project-id = 326599
+[update.modrinth]
+mod-id = "V1XQ9Kbq"
+version = "5g6JI9wo"

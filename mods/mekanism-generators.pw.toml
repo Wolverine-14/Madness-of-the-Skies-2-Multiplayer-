@@ -3,11 +3,11 @@ filename = "MekanismGenerators-1.20.1-10.4.16.80.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "53fa707fd204ca1dd099a08995c2197145ff9a36"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/OFVYKsAk/versions/Th4Czz4N/MekanismGenerators-1.20.1-10.4.16.80.jar"
+hash-format = "sha512"
+hash = "f377ddd719cc5df6b09c81b16467da5ca6645237270c6f81556304585ebaee79030613783418a7b100ed6695857d17ce2d83ecfd123abf309e78ea3c0c2d1d12"
 
 [update]
-[update.curseforge]
-file-id = 6552914
-project-id = 268566
+[update.modrinth]
+mod-id = "OFVYKsAk"
+version = "Th4Czz4N"

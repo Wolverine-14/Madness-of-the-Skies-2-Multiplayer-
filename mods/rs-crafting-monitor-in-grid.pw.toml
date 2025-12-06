@@ -3,11 +3,11 @@ filename = "RS_CraftingMonitorInGrid-1.20.1-4.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cf19cdcdbf80220fd72c8e23d7d73fefcc0e7b09"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/JOA9kmlg/versions/9QamZFzI/RS_CraftingMonitorInGrid-1.20.1-4.0.jar"
+hash-format = "sha512"
+hash = "dd31a296bc54d43fa15005b3ed803df7d6fd682a96e98999b8d8617ba1ef85a613145bc9a07b94ab7cfd4350c25227c6d247a7984f2c13df8c389d9033f51efa"
 
 [update]
-[update.curseforge]
-file-id = 4632730
-project-id = 865533
+[update.modrinth]
+mod-id = "JOA9kmlg"
+version = "9QamZFzI"

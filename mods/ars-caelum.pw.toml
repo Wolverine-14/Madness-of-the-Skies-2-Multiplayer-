@@ -3,11 +3,11 @@ filename = "ars_caelum-1.20.1-2.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3e8f576283cd74c1ddd644b6171a3f63976b661e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/tKSQ9ACQ/versions/k0kmUrFM/ars_caelum-1.20.1-2.0.1.jar"
+hash-format = "sha512"
+hash = "07ce607b80928a569a7e1a3b70aff1529c846dccb54f2072c4c29995e77253a5f53d0e02118016bea2fbb42187c21757e58d11b03bba42f6ca1d91ea182e8d73"
 
 [update]
-[update.curseforge]
-file-id = 5171768
-project-id = 821651
+[update.modrinth]
+mod-id = "tKSQ9ACQ"
+version = "k0kmUrFM"

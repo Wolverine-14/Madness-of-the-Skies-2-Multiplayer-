@@ -1,13 +1,13 @@
 name = "Botanical Machinery"
-filename = "BotanicalMachinery-1.20.1-3.0.6.jar"
+filename = "BotanicalMachinery-1.20.1-3.0.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5ddd14614482b78cc80c1b7f240a10bdb87befd0"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/CTJzhcfH/versions/i8Ont74I/BotanicalMachinery-1.20.1-3.0.7.jar"
+hash-format = "sha512"
+hash = "136561907a3c2ab004a4c22c7e753652960d040409cf53b8bb8a87c6f5188be04b25287309902e042282ee0f19d3f65d1bf5429ace7aae1ae4feb90d701f44da"
 
 [update]
-[update.curseforge]
-file-id = 6036446
-project-id = 395617
+[update.modrinth]
+mod-id = "CTJzhcfH"
+version = "i8Ont74I"

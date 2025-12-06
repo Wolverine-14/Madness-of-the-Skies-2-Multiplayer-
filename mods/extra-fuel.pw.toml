@@ -3,11 +3,11 @@ filename = "Extra-Fuel-Mod-v1.0+1.19.4-1.20.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ea09148595c4d7f7f608cba2b1ce384d8beeee85"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/a87Zzdmj/versions/V8Rb28mJ/Extra-Fuel-Mod-v1.0%2B1.19.4-1.20.4.jar"
+hash-format = "sha512"
+hash = "b4cec243e95659126c266935f8695fba07f79811880a6d096aa2ebf7ad633aab20c3ac1dc67679acd9a43d30288c586acb416a81328b04cb4ff7a6ae0d67730b"
 
 [update]
-[update.curseforge]
-file-id = 5120441
-project-id = 976835
+[update.modrinth]
+mod-id = "a87Zzdmj"
+version = "V8Rb28mJ"

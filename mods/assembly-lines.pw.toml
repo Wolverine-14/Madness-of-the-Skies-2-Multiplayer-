@@ -1,13 +1,13 @@
-name = "Assembly Lines"
+name = "Assembly Line"
 filename = "Assembly Line-1.20.1-0.6.1-1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "540ed4899ee7b8d5c525683802f33c92747da035"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/SoWP7zzK/versions/VhSNy5sZ/Assembly%20Line-1.20.1-0.6.1-1.jar"
+hash-format = "sha512"
+hash = "32b42c6fa5b1b39a9cda1c2f057b2fa90a91bd18c21f974621be3820170f7490349ee0cfa0fd6b6d3a765310a78cec1ed892dcec98655058bcf01c2c5aa698c4"
 
 [update]
-[update.curseforge]
-file-id = 6791679
-project-id = 404360
+[update.modrinth]
+mod-id = "SoWP7zzK"
+version = "VhSNy5sZ"

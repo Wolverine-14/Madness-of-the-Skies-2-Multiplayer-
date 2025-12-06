@@ -3,11 +3,11 @@ filename = "CobbleForDays-1.8.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8c683b5a8205544af762ed0c74371e1b76367341"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hi71AUZ0/versions/Ps3pCBgF/CobbleForDays-1.8.0.jar"
+hash-format = "sha512"
+hash = "5a99368db1da9da98ed1d980b80c39abf7aad890fecf1e0a578ff17ec26f0810f875a432690f14e08c22dfd2aadb4869e4c299b9434d3b58e70239cb367bbc7f"
 
 [update]
-[update.curseforge]
-file-id = 4653625
-project-id = 349460
+[update.modrinth]
+mod-id = "hi71AUZ0"
+version = "Ps3pCBgF"

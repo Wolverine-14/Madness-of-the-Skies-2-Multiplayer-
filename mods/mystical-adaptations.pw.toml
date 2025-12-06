@@ -3,11 +3,11 @@ filename = "MysticalAdaptations-1.20.1-1.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1bc3c63ba8e1b3aea1fa0f3589dd215d246ac089"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/JuNhazXF/versions/WdCcexbZ/MysticalAdaptations-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "67df31403be22444e8c2b635d929d5458571db3ade2cc8d767a9190d3bfd6173f3a1d5dbed7b1fef4d80772ef67fd488d322ec44c129d2b18a33d1c791467f09"
 
 [update]
-[update.curseforge]
-file-id = 4955398
-project-id = 325892
+[update.modrinth]
+mod-id = "JuNhazXF"
+version = "WdCcexbZ"

@@ -1,13 +1,13 @@
-name = "Disable enderman picking up blocks"
+name = "Disable Enderman Picking Up Blocks"
 filename = "depub.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cb034b5ab45fb49add45f93e6ce6a9c94661de73"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Ec6K5FYS/versions/FaAhSsAD/depub.jar"
+hash-format = "sha512"
+hash = "367978e63d04b2b3df535afd33c93be97c62c49b2954a721b6ad63ae3f9baa38f62d1137fde5ea80fde5c88391e1993c31f7d2428f1da44ac0a597a77da32304"
 
 [update]
-[update.curseforge]
-file-id = 6812925
-project-id = 736935
+[update.modrinth]
+mod-id = "Ec6K5FYS"
+version = "FaAhSsAD"

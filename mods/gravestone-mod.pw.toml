@@ -3,11 +3,11 @@ filename = "gravestone-forge-1.20.1-1.0.35.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a5592ab84eae317907e5003f590cc4a8ba9cbe49"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/RYtXKJPr/versions/q9kZE5Xo/gravestone-forge-1.20.1-1.0.35.jar"
+hash-format = "sha512"
+hash = "0f1b3f80ddb2fc76cfe64a52d9cc6a04b57151d592d4f85dd03f5714d6917a1e5e7c0fc1a572c9cf2e307e8008743f0a6872fd5875380995cccaccd3e5e084ab"
 
 [update]
-[update.curseforge]
-file-id = 7099725
-project-id = 238551
+[update.modrinth]
+mod-id = "RYtXKJPr"
+version = "q9kZE5Xo"

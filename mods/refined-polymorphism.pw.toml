@@ -3,11 +3,11 @@ filename = "refinedpolymorph-0.1.1-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6268974fcb84a01d52b70a78232c2bd6f2a450f8"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/HwPAr6Pu/versions/XSjAWIAk/refinedpolymorph-0.1.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "5400332ce0ed346e16bf96af11c17d09769bea705747cd5484f23f2043176e67f15a0b61a3e329ce65afd4052752f173e1a8ffc5884c88c44e709c6a8e163603"
 
 [update]
-[update.curseforge]
-file-id = 5227282
-project-id = 943086
+[update.modrinth]
+mod-id = "HwPAr6Pu"
+version = "XSjAWIAk"

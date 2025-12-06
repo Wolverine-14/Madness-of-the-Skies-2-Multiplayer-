@@ -1,0 +1,13 @@
+name = "Mekanism Extra"
+filename = "mekanism_extras-1.20.1-1.4.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HUZkxNTQ/versions/eTwlYRNB/mekanism_extras-1.20.1-1.4.6.jar"
+hash-format = "sha512"
+hash = "eda287280bb469415f4a5d54f32b943d7be6ea52b8e4d7804ad9b30a31c4333c08247b6f176d912a777cd6f480f65c70ad9c265cd86463fb7e04d526a6b3112b"
+
+[update]
+[update.modrinth]
+mod-id = "HUZkxNTQ"
+version = "eTwlYRNB"

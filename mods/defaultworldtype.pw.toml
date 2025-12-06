@@ -1,13 +1,13 @@
-name = "Default World Type [Forge]"
+name = "Default World Type"
 filename = "DefaultWorldType-1.20.1-4.0.4.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "0b6e6f8c7a7c8433280486d841450aa6df0fbee4"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/kZvO1mDq/versions/2VytoA5j/DefaultWorldType-1.20.1-4.0.4.jar"
+hash-format = "sha512"
+hash = "1728d639dd810dd66049b0c2ba26069e09213f98c931362258ddd489057564e2949d24d38b9859a649f70e1ae957152ea531291cd25e5f2eb6b372b3dff6470c"
 
 [update]
-[update.curseforge]
-file-id = 4796884
-project-id = 373014
+[update.modrinth]
+mod-id = "kZvO1mDq"
+version = "2VytoA5j"

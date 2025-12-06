@@ -1,13 +1,13 @@
 name = "Mine Spawners"
-filename = "mine_spawners_forge-1.0.jar"
-side = "both"
+filename = "mine_spawners_forge-1.1.jar"
+side = "server"
 
 [download]
-hash-format = "sha1"
-hash = "cccafdc74f93b73e0dc2b879d3bac94a5b64efba"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/7VESbzyX/versions/hDUuG3QZ/mine_spawners_forge-1.1.jar"
+hash-format = "sha512"
+hash = "71bd2b2f814868d170d604e7c774bf0520be750fb9d4762501929b058409150a76d922957a454744f3f7e5eb7fb405680deda463bf229e2aed646ff0961e9c1d"
 
 [update]
-[update.curseforge]
-file-id = 6094698
-project-id = 873535
+[update.modrinth]
+mod-id = "7VESbzyX"
+version = "hDUuG3QZ"

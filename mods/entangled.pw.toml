@@ -3,11 +3,11 @@ filename = "entangled-1.3.20-forge-mc1.20.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a72c3f8828a2c922c11676a9908e609a75b35b6e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rylMOguI/versions/q9HaCHHv/entangled-1.3.20-forge-mc1.20.4.jar"
+hash-format = "sha512"
+hash = "97653dd741a1fb39b25f67d2971e1ed98462af75dd80cafe5d76ed1f8db8965ba059f8ce2f6fa9ab2db8404463a2c32df10f9a1dd718548ef2a56a75b9a68436"
 
 [update]
-[update.curseforge]
-file-id = 5885909
-project-id = 301034
+[update.modrinth]
+mod-id = "rylMOguI"
+version = "q9HaCHHv"

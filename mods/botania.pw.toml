@@ -3,11 +3,11 @@ filename = "Botania-1.20.1-450-FORGE.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "637e1d7ac69d89f17aea813e0b43f2ee806e3b14"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/pfjLUfGv/versions/cuN4HNDd/Botania-1.20.1-450-FORGE.jar"
+hash-format = "sha512"
+hash = "a19581dbab10c93266418c7a2713454f8d5266fec03316252804be8829180cac535cb8cceeb37febe7e28a57b3ada4aa261164b821d3e48f2669cf8ae73716db"
 
 [update]
-[update.curseforge]
-file-id = 6870713
-project-id = 225643
+[update.modrinth]
+mod-id = "pfjLUfGv"
+version = "cuN4HNDd"
