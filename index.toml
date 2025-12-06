@@ -1821,7 +1821,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgiving-void.pw.toml"
-hash = "305c717aba8b85fa1bc453954a2e04d2babf40efc025ba7b5270bdff6d40e92c"
+hash = "7e46c4f7183e122b18e0539bdc2a10554647bee36af197894c0919a33cc06276"
 metafile = true
 
 [[files]]
@@ -1961,7 +1961,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-enderio.pw.toml"
-hash = "2e0611388ba6554f08545f5e9bc002b81f6339a7597a5b9685606241570a0cd4"
+hash = "c94627bb3efba17fc56238c173790171f12b809085242e1cc341b5e14bdd1857"
 metafile = true
 
 [[files]]
@@ -1986,7 +1986,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "e57ad3496f6185470581e5a3ec1a6ceb09d8cf88ccde6305c5e464332d0fe867"
+hash = "dac76b57fd114d37956011ad054aab6b5e86f1fd9e308da534bff0ca69a78989"
 metafile = true
 
 [[files]]
@@ -2031,7 +2031,7 @@ metafile = true
 
 [[files]]
 file = "mods/mine-spawners.pw.toml"
-hash = "cda75ebd6595b9950a79bea4a19113799624ae4deb8bd1f969c0fb571a6f168e"
+hash = "82cd1e5a196e3050a3b0637a8cee6134f8c66c878c6c982f2c8a343c8b7348ab"
 metafile = true
 
 [[files]]
