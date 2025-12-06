@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "immersive_ingenering"
+	group: "2BAFEAA6F82C275C"
+	icon: "industrialforegoing:dissolution_chamber"
+	id: "0A91F91D61F0BC30"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B731F240E65A09F"]
+			id: "7B911EED14FBD7ED"
+			tasks: [{
+				id: "51675542D1E1E2FE"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B911EED14FBD7ED"]
+			id: "3204140346D8C773"
+			tasks: [{
+				id: "1423E64B19766179"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B911EED14FBD7ED"]
+			description: [
+				"Make a mob farm, use a range addon to cover the area."
+				"This machine produce pink slime and liquid meat"
+			]
+			id: "491FE19CA9CBDEC1"
+			tasks: [{
+				id: "7A31C33A7BD34214"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B911EED14FBD7ED"]
+			description: [
+				"Place a log in front of this machine to produce latex."
+				"Work without power"
+				""
+				"You can use a block placer to automate the latex creation"
+			]
+			id: "55335558CB5E0416"
+			tasks: [{
+				id: "03A6B5B06A1CAA1A"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55335558CB5E0416"]
+			id: "11E6A825A24D0EDA"
+			tasks: [{
+				id: "0E14C688A6154D36"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["491FE19CA9CBDEC1"]
+			id: "58B4B83994660697"
+			tasks: [{
+				id: "3E1987E4167E88B8"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"11E6A825A24D0EDA"
+				"3204140346D8C773"
+			]
+			id: "60FD3C040004E3A1"
+			tasks: [{
+				id: "412F7784D5F161A7"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"58B4B83994660697"
+				"3204140346D8C773"
+			]
+			id: "79C3DC4BF5B4CDD3"
+			tasks: [{
+				id: "5DEAB18ED64E7D24"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"79C3DC4BF5B4CDD3"
+				"60FD3C040004E3A1"
+			]
+			description: ["New way to produce ore"]
+			id: "673A7A909C0B2970"
+			tasks: [
+				{
+					count: 4L
+					id: "5F2CC7CCA85E76F6"
+					item: { Count: 4, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "36660FF49D3D740F"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B911EED14FBD7ED"]
+			id: "083CC4855625DF98"
+			tasks: [{
+				id: "1A7226DC2C9F94A8"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"79C3DC4BF5B4CDD3"
+				"60FD3C040004E3A1"
+			]
+			description: [
+				"Place the stasis chamber, go 4 blocks above and place the liquid laser base and on each side a laser drill."
+				""
+				"Make sure to power the stasis chamber BEFORE spawning the wither"
+			]
+			id: "597DEA123C7BA545"
+			tasks: [
+				{
+					id: "6FBEAA5357E9BB74"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4EE1C852C04DC301"
+					item: { Count: 4, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "0D8AF78333909C06"
+					item: "industrialforegoing:stasis_chamber"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["597DEA123C7BA545"]
+			id: "2DC1031DBBE042A1"
+			tasks: [{
+				id: "337362FA339937A5"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DC1031DBBE042A1"]
+			id: "36B1C030E314A086"
+			tasks: [{
+				id: "64E3D3BDB173B921"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11E6A825A24D0EDA"]
+			id: "48352EA620CACB79"
+			tasks: [
+				{
+					id: "62A9C0B38B13B3D2"
+					item: {
+						Count: 1
+						id: "industrialforegoing:speed_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Speed: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "428230F2FACACD41"
+					item: {
+						Count: 1
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "137D92FBB89200B7"
+					item: {
+						Count: 1
+						id: "industrialforegoing:processing_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Processing: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51BD3EBC32A3EAF7"
+					item: {
+						Count: 1
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"79C3DC4BF5B4CDD3"
+				"176E4C08F8E42F11"
+			]
+			description: [
+				"Same setup as with the wither, use to speed up any machine"
+				""
+				"Place a soul surge on the machine and link with the cable"
+				""
+				"The Warden can be captured to be duplicate or place in this setup"
+			]
+			id: "0B008C520E7FFE9E"
+			tasks: [
+				{
+					id: "7ECB56C8BD5A99E5"
+					item: "industrialforegoingsouls:soul_laser_base"
+					type: "item"
+				}
+				{
+					id: "1136240AEB6C57D1"
+					item: "industrialforegoingsouls:soul_surge"
+					type: "item"
+				}
+				{
+					id: "089D5B44AF300CBD"
+					item: "industrialforegoingsouls:soul_network_pipe"
+					type: "item"
+				}
+				{
+					id: "6474941014C83F8D"
+					item: "industrialforegoing:laser_lens11"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C5AFEA5C24DB6ED"
+					item: { Count: 4, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["79C3DC4BF5B4CDD3"]
+			description: ["You need to farm 3 different mobs"]
+			id: "07A3FD39A052A06C"
+			tasks: [
+				{
+					id: "7CF5A45CD1DF4E7B"
+					item: "industrialforegoing:mob_duplicator"
+					type: "item"
+				}
+				{
+					id: "30CFD70D4C038A35"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07A3FD39A052A06C"]
+			id: "2CE97B38E52A9E9E"
+			tasks: [{
+				id: "38A4B6918DDF22A9"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["07A3FD39A052A06C"]
+			id: "234746E9CC221A42"
+			tasks: [{
+				id: "11375FBDD8A76FA6"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07A3FD39A052A06C"]
+			id: "43BFE48DE075EE4A"
+			tasks: [{
+				id: "3AFE22A2F7302B00"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36B1C030E314A086"]
+			id: "06CE9A7C81071C6B"
+			tasks: [{
+				id: "38776B7FF37A51A0"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+	]
+	title: "Industrial Foregoing"
+}

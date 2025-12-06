@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "draconic_evolution"
+	group: "2BAFEAA6F82C275C"
+	icon: "draconicevolution:dragon_heart"
+	id: "12DEAB6D30081AAF"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43A986EB3DB03B92"]
+			description: [
+				"You get your first draconium by killing the ender dragon."
+				"Then draconium ore spawn in the end and you can place laser miner in the end"
+			]
+			id: "1AC2998F3C38037F"
+			tasks: [{
+				id: "7C67CAEE7B0475C3"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AC2998F3C38037F"]
+			id: "740CB3ED4A3B8A86"
+			tasks: [{
+				id: "53C7E7D4C49AA1D6"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["740CB3ED4A3B8A86"]
+			id: "0F0D6CBBA2C1133B"
+			tasks: [{
+				id: "21A19BD93223FF17"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F0D6CBBA2C1133B"]
+			id: "7253A58CB45EC0CE"
+			tasks: [{
+				id: "213297DB5A4AA78D"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F0D6CBBA2C1133B"]
+			description: ["Craft 9 of these minimum"]
+			id: "56B44738ACDB735C"
+			tasks: [{
+				id: "74D9A5D973FCE416"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7253A58CB45EC0CE"
+				"56B44738ACDB735C"
+			]
+			id: "3C7A6BA44570F8DE"
+			tasks: [{
+				id: "66C960B09F8282D1"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C7A6BA44570F8DE"]
+			id: "04F42257CC80CD98"
+			tasks: [{
+				id: "75B14237DAF4953E"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"04F42257CC80CD98"
+				"3C7A6BA44570F8DE"
+			]
+			id: "3E29BFC792FD43F9"
+			tasks: [{
+				id: "54BE92B888B1C045"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3E29BFC792FD43F9"
+				"64FCC27F49140701"
+			]
+			id: "6C25BAF2BF89AA05"
+			tasks: [{
+				id: "5D0DDABD67F82845"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F0D6CBBA2C1133B"]
+			description: ["Need to be place in the center of your fusion crafting setup"]
+			id: "39629358CCD14106"
+			tasks: [{
+				id: "4ED70F9B6E6BC7A4"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04F42257CC80CD98"]
+			description: [
+				"Chaos Guardian spawn in the end every 10000 blocks."
+				"For example one on 10000 10000, one on 20000 10000 etc"
+			]
+			id: "64FCC27F49140701"
+			tasks: [{
+				id: "34B3CB8EEF2D7060"
+				title: "Chaos Guardian"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+	]
+	title: "Draconic Evolution"
+}

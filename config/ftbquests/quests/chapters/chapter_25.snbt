@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_25"
+	group: "758631C161183294"
+	icon: "thermal_extra:nitratic_igniter"
+	id: "4BC6A865AD5180A2"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76CAAAC5991CB6AF"]
+			id: "7D5BAE082EC95B7D"
+			tasks: [{
+				id: "168B8BE12E7EB252"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D5BAE082EC95B7D"
+				"50202C8F63851752"
+			]
+			id: "48701B285290EC56"
+			tasks: [{
+				id: "6822E047E43C1C31"
+				item: "electrodynamics:mineralcrusher"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48701B285290EC56"]
+			id: "1013F3CD02CB8675"
+			tasks: [{
+				id: "16E38CB952387167"
+				item: "electrodynamics:mineralgrinder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1013F3CD02CB8675"]
+			id: "1AC61E7004CCA81F"
+			tasks: [{
+				id: "274026154C45FFC6"
+				item: "electrodynamics:electricfurnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45E4B404B2DF9ACF"]
+			id: "6DA3912FBAFD8891"
+			tasks: [{
+				id: "462E43AFF6F723AB"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7D5BAE082EC95B7D"
+				"4219B77E2DFCD82C"
+				"384B63BA6F80FBD9"
+			]
+			id: "45E4B404B2DF9ACF"
+			tasks: [{
+				id: "3B1CED700D920D99"
+				item: "thermal_extra:nitratic_igniter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DA3912FBAFD8891"]
+			id: "69B38EF3D5FC4401"
+			tasks: [{
+				id: "7B496B442FACFE5B"
+				item: "thermal_extra:endothermic_dehydrator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69B38EF3D5FC4401"]
+			id: "7024A298CD3F8D84"
+			tasks: [{
+				id: "49810D3A470ED031"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "50202C8F63851752"
+			tasks: [{
+				id: "5418D1AC1D45A1A6"
+				title: "x6"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "4219B77E2DFCD82C"
+			tasks: [{
+				id: "47F82999D8179723"
+				title: "x12"
+				type: "checkmark"
+			}]
+			title: "≃ x20"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "76CAAAC5991CB6AF"
+			tasks: [{
+				id: "29180991F360BA1D"
+				title: "x2"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "Chapter 2.5: New loops"
+}

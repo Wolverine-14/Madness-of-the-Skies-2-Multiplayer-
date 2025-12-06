@@ -1,0 +1,11 @@
+{
+    "name": "Obsidian",
+    "colors": [
+      "2e2342",
+      "0d090f"
+    ],
+    "ingredient": {
+      "item": "minecraft:obsidian"
+    },
+    "inUltimateSingularity": true
+  }

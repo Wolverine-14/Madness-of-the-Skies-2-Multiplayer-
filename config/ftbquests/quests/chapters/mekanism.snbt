@@ -1,0 +1,443 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "mekanism"
+	group: "2BAFEAA6F82C275C"
+	icon: "mekanism:metallurgic_infuser"
+	id: "08DAF0C97366B4F4"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["293BBB434E32C7C9"]
+			id: "52B2B8D2A8EB6A6F"
+			tasks: [{
+				id: "440B80021F033DE7"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52B2B8D2A8EB6A6F"]
+			id: "31542BFB2E447753"
+			tasks: [{
+				id: "242863B4A395BBB7"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D6225D34B2D9BD4"]
+			description: ["Max 16 per machine"]
+			id: "2E20E9660D9EEC1D"
+			tasks: [{
+				id: "6990ADEA58834797"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D6225D34B2D9BD4"]
+			description: ["Max 16 per machine"]
+			id: "0517C704082EDE5E"
+			tasks: [{
+				id: "7BA119D1C42E434E"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52B2B8D2A8EB6A6F"]
+			id: "4DADCBACC47D84BE"
+			tasks: [{
+				id: "01D4E9EB990F666D"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4D6225D34B2D9BD4"
+				"4DADCBACC47D84BE"
+			]
+			id: "4549668CE4F6DD56"
+			tasks: [{
+				id: "083361AF032DE75A"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4549668CE4F6DD56"
+				"3EA588C6509EFEB3"
+			]
+			id: "2FD858AC996F3C37"
+			tasks: [{
+				id: "088A131A55A8DE21"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6A82CBE211B08A2B"
+				"2FD858AC996F3C37"
+			]
+			id: "07F20ABC7F7FE7E2"
+			tasks: [{
+				id: "54B96DABF51BF788"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"07F20ABC7F7FE7E2"
+				"4CB737DF8F1801B9"
+			]
+			id: "375D04EE49537702"
+			tasks: [{
+				id: "7142293E7F714E27"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"375D04EE49537702"
+				"19E9ACAA0AC22207"
+			]
+			id: "698D780F05BC9EBC"
+			tasks: [{
+				id: "379DEFF1DBA15065"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"698D780F05BC9EBC"
+				"1769B84F3D97767B"
+			]
+			id: "017B65F2946A8243"
+			tasks: [{
+				id: "5EF3E91AD417C41E"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"017B65F2946A8243"
+				"2DA37A473465831B"
+			]
+			id: "50CCF34DA743582F"
+			tasks: [{
+				id: "7887537BCC9D25E8"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"52B2B8D2A8EB6A6F"
+				"1C65908FBA923B9C"
+			]
+			id: "4D6225D34B2D9BD4"
+			tasks: [{
+				id: "37638AE52978969F"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4D6225D34B2D9BD4"
+				"1B3A70DE02C1F543"
+			]
+			id: "3EA588C6509EFEB3"
+			tasks: [{
+				id: "088FA382CE0089D9"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3EA588C6509EFEB3"
+				"7799AA07EAC13170"
+			]
+			id: "6A82CBE211B08A2B"
+			tasks: [{
+				id: "3D6117F235D550F8"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6A82CBE211B08A2B"
+				"165B31119B4BC167"
+			]
+			id: "4CB737DF8F1801B9"
+			tasks: [{
+				id: "47647AECE9114D95"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4CB737DF8F1801B9"
+				"1F83A17453B140E6"
+			]
+			id: "19E9ACAA0AC22207"
+			tasks: [{
+				id: "45492070A0AB0DF1"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"19E9ACAA0AC22207"
+				"0927FD42E3ADEC29"
+			]
+			id: "1769B84F3D97767B"
+			tasks: [{
+				id: "5A01DF013C17FCAF"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1769B84F3D97767B"
+				"7AB26431C64ED9BC"
+			]
+			id: "2DA37A473465831B"
+			tasks: [{
+				id: "7EA7E793F8AD6B01"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31542BFB2E447753"]
+			id: "286FABDDA8FA3E36"
+			tasks: [{
+				id: "01232D7CA80D85B4"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "1C65908FBA923B9C"
+			tasks: [{
+				id: "210788B80E6F3C3E"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "1B3A70DE02C1F543"
+			tasks: [{
+				id: "1FD6DC496C039005"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "7799AA07EAC13170"
+			tasks: [{
+				id: "5F1AB8BA36C55879"
+				item: "mekanism:enriched_refined_obsidian"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "165B31119B4BC167"
+			tasks: [{
+				id: "243A321BEF60240A"
+				item: "mekanism_extras:enriched_radiance"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "0927FD42E3ADEC29"
+			tasks: [{
+				id: "0DC0DAFA1E4CB93A"
+				item: "mekanism_extras:enriched_shining"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "1F83A17453B140E6"
+			tasks: [{
+				id: "1A7B7EEA102D0326"
+				item: "mekanism_extras:enriched_thermonuclear"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "7AB26431C64ED9BC"
+			tasks: [{
+				id: "5471AF012EC91AA4"
+				item: "mekanism_extras:enriched_spectrum"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4DADCBACC47D84BE"]
+			description: ["Upgrade machine and cube"]
+			id: "355CB97B0FDE34F5"
+			tasks: [{
+				id: "76096DAADCBAA795"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4549668CE4F6DD56"]
+			description: ["Upgrade machine and cube"]
+			id: "477B99FF9E70207B"
+			tasks: [{
+				id: "765E3F73CEAF6320"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FD858AC996F3C37"]
+			description: ["Upgrade machine and cube"]
+			id: "10175F70C5831A60"
+			tasks: [{
+				id: "585D70451B1A211C"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07F20ABC7F7FE7E2"]
+			description: ["Upgrade cube"]
+			id: "23D641E61EA81018"
+			tasks: [{
+				id: "71B32E720A910081"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["375D04EE49537702"]
+			description: ["Upgrade cube"]
+			id: "19934D3380C24DC0"
+			tasks: [{
+				id: "19E87D2FD33F9D9D"
+				item: "mekanism_extras:absolute_tier_installer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["698D780F05BC9EBC"]
+			description: ["Upgrade cube"]
+			id: "245686F0969BB0C7"
+			tasks: [{
+				id: "26136F872C39D799"
+				item: "mekanism_extras:supreme_tier_installer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["017B65F2946A8243"]
+			description: ["Upgrade cube"]
+			id: "08DAE18280D49D1A"
+			tasks: [{
+				id: "65E5733436A2198F"
+				item: "mekanism_extras:cosmic_tier_installer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50CCF34DA743582F"]
+			description: ["Upgrade cube"]
+			id: "3B74938EFF1E4A91"
+			tasks: [{
+				id: "5F64B3B6F431FBA2"
+				item: "mekanism_extras:infinite_tier_installer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+	]
+	title: "Mekanism"
+}

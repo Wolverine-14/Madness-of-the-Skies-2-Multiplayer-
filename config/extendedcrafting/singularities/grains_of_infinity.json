@@ -1,0 +1,12 @@
+{
+    "name": "Grains of infinity",
+    "colors": [
+      "282828",
+      "272727"
+    ],
+    "ingredient": {
+      "item": "enderio:grains_of_infinity"
+    },
+    "inUltimateSingularity": true,
+    "materialCount": 1000
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Spectrum alloy",
+    "colors": [
+      "69cf79",
+      "2c24d1"
+    ],
+    "ingredient": {
+      "item": "mekanism_extras:alloy_spectrum"
+    },
+    "inUltimateSingularity": true
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Sulfur",
+    "colors": [
+      "ffe979",
+      "b49c22"
+    ],
+    "ingredient": {
+      "item": "thermal:sulfur"
+    },
+    "inUltimateSingularity": true
+  }

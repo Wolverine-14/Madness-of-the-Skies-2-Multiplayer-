@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "powah_2"
+	group: "2BAFEAA6F82C275C"
+	icon: "powah:dielectric_paste"
+	id: "4A4A2E98977B76F3"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["333238C427306AEC"]
+			id: "1420A4423A3321C5"
+			tasks: [{
+				id: "57B4EECF364DB812"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1420A4423A3321C5"]
+			id: "6688952380549969"
+			tasks: [{
+				id: "1CB3357074387D82"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6688952380549969"]
+			id: "577E6123F58D8DC3"
+			tasks: [{
+				id: "0D89B8017F082282"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["577E6123F58D8DC3"]
+			id: "09000746DBA7A709"
+			tasks: [{
+				id: "453B12AC760CDE72"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["577E6123F58D8DC3"]
+			id: "2697176E8B4DE810"
+			tasks: [{
+				id: "5B02CD9418F65BD4"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["577E6123F58D8DC3"]
+			id: "688050E58108FF4D"
+			tasks: [{
+				id: "4B37614BEAC95DFC"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["577E6123F58D8DC3"]
+			id: "34F94EE6E0D4CF07"
+			tasks: [{
+				id: "3AF0C9AFA6984D20"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["577E6123F58D8DC3"]
+			id: "0C6EFBA7C661C02E"
+			tasks: [{
+				id: "754F26560CEF06FD"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F98A0DDCB7EB579"]
+			id: "703DEBD87632423C"
+			tasks: [{
+				id: "137124AEA53BD466"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30E49EB6A21DFCB9"]
+			id: "18354F004EC9C2C7"
+			tasks: [{
+				id: "29764270AD3A5F4E"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["310DFE190139B6C4"]
+			id: "54EBE3153B59E17C"
+			tasks: [{
+				id: "6054D86F369AAE5A"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E14E4F633E7DCEB"]
+			id: "090DEBD49D26D766"
+			tasks: [{
+				id: "579384530E0E0F5D"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D301B011A933221"]
+			id: "07904672609B3F44"
+			tasks: [{
+				id: "2C96889A3F0CE32C"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09000746DBA7A709"]
+			id: "0F98A0DDCB7EB579"
+			tasks: [{
+				id: "68871F7955FDC0B8"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2697176E8B4DE810"]
+			id: "30E49EB6A21DFCB9"
+			tasks: [{
+				id: "205D680161BCCAA2"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["688050E58108FF4D"]
+			id: "310DFE190139B6C4"
+			tasks: [{
+				id: "60845E898A0B4983"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34F94EE6E0D4CF07"]
+			id: "4E14E4F633E7DCEB"
+			tasks: [{
+				id: "6D7A690ED03C9849"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6EFBA7C661C02E"]
+			id: "6D301B011A933221"
+			tasks: [{
+				id: "0C8E6DBCB49E1DDE"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30E49EB6A21DFCB9"]
+			id: "3879255B65C245CC"
+			tasks: [{
+				id: "42CF2E5FC203F698"
+				item: "powah:energy_cable_blazing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E14E4F633E7DCEB"]
+			id: "62A5E6F7D2F33808"
+			tasks: [{
+				id: "7C08E9DA2657435F"
+				item: "powah:energy_cable_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D301B011A933221"]
+			id: "6C51655CCC761438"
+			tasks: [{
+				id: "0189B4D1B30FB736"
+				item: "powah:energy_cable_nitro"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F98A0DDCB7EB579"]
+			id: "31DA0014C1E98FB2"
+			tasks: [{
+				id: "3491436C8361EF9E"
+				item: "powah:energy_cable_hardened"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["310DFE190139B6C4"]
+			id: "43593365317ADDB2"
+			tasks: [{
+				id: "13D943D4A860FBB4"
+				item: "powah:energy_cable_niotic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6688952380549969"]
+			description: ["Consumes burnable items"]
+			id: "10D095BDCFAC66FB"
+			tasks: [{
+				id: "4B70BDB032F190A7"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6688952380549969"]
+			description: ["Consumes uranium, ice, water, redstone and coal"]
+			id: "1D9D77699C61B07F"
+			tasks: [{
+				id: "401A87BA1B9F815F"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6688952380549969"]
+			description: ["Consumes water with a heat source under it"]
+			id: "316FDD5B130DF584"
+			tasks: [{
+				id: "0704391E5283E860"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6688952380549969"]
+			description: ["Consumes lava"]
+			id: "08858D31951EBD34"
+			tasks: [{
+				id: "4C15CD1077F6D444"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "Powah"
+}

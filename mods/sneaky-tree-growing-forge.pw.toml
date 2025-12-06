@@ -1,0 +1,13 @@
+name = "Sneaky Tree Growing [Forge]"
+filename = "FORGE-sneaky_tree_growing-1.20.x-1.10.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d909c96180a689c77414fd6f158b07c2a23c1ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4621308
+project-id = 479061

@@ -1,0 +1,515 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "electrodynamics"
+	group: "2BAFEAA6F82C275C"
+	icon: "electrodynamics:electricfurnace"
+	id: "75A80B039BE3235A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1248045530690DD6"
+				"73BD06279F9083AE"
+				"456580393CE002B3"
+				"4C46ED4F81FB69FB"
+			]
+			id: "4E1C86B6FD89F9FB"
+			tasks: [{
+				id: "31FE5DA55E612957"
+				item: "electrodynamics:wirecopper"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43980288A13386C6"]
+			description: [""]
+			id: "4B77BC6A33A05E8B"
+			tasks: [{
+				id: "08DE257E6A31F392"
+				item: "electrodynamics:insulation"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4E1C86B6FD89F9FB"
+				"4B77BC6A33A05E8B"
+			]
+			id: "7B493DA156B9862E"
+			tasks: [{
+				id: "798A2AA07E1904A5"
+				item: "electrodynamics:wireinsulatedcopperblack"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B493DA156B9862E"]
+			id: "00D29AE4EBF43EAD"
+			tasks: [{
+				id: "264A2052E27738F6"
+				item: "electrodynamics:motor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00D29AE4EBF43EAD"]
+			description: [
+				"Each windmill produce 516W each at ground level. "
+				"They produce more by gaining in height, between 4 and 5W more per block."
+				"The windmill are at 120V"
+				"Warning, the amperage is also impacted but the height (4.3A at ground level)"
+			]
+			id: "72E742E74ADFE925"
+			tasks: [{
+				id: "60E1A4E65DBC2F49"
+				item: "electrodynamics:windmill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00D29AE4EBF43EAD"]
+			id: "7DA5994DEC915C04"
+			tasks: [{
+				id: "158661E0DB166F76"
+				item: "assemblyline:conveyorbelt"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B493DA156B9862E"]
+			id: "4C0E275E312ABC55"
+			tasks: [{
+				id: "2B0569FEBDD807E5"
+				item: "electrodynamics:circuitbasic"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E1C86B6FD89F9FB"]
+			description: [
+				"Multiply the voltage by 2."
+				""
+				"120V---Upgrade transformer---240V "
+				"120V---Upgrade transformer,Upgrade transformer---480V"
+			]
+			id: "6942790977C0EDDE"
+			tasks: [{
+				id: "579368972464A7EA"
+				item: "electrodynamics:upgradetransformer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C0E275E312ABC55"]
+			description: ["The energized alloyer consumes 1kW at 480V"]
+			id: "7849FFFA0239D790"
+			tasks: [{
+				id: "3C8E7AF64BAFD528"
+				item: "electrodynamics:energizedalloyer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7849FFFA0239D790"]
+			id: "264EFD98EAFBC12D"
+			tasks: [{
+				id: "35DC832566530B28"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0251BDC0782D77A6"]
+			description: ["The electric furnace consumes 3,5kW at 120V"]
+			id: "0129DAAC261DEB75"
+			tasks: [{
+				id: "0CE040E35228034F"
+				item: "electrodynamics:electricfurnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4C0E275E312ABC55"
+				"6BB91843BC61ED7A"
+			]
+			id: "73EB1C621D05177E"
+			tasks: [{
+				id: "55B2B4114846C763"
+				item: "electrodynamics:circuitadvanced"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["73EB1C621D05177E"]
+			id: "7D2A2D5E28FD651C"
+			tasks: [{
+				id: "2D9073E222D9F59A"
+				item: "electrodynamics:circuitelite"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"35AEC48D330A455E"
+				"7D2A2D5E28FD651C"
+			]
+			id: "73CEF6E5454E3A7C"
+			tasks: [{
+				id: "72B629DCFF9F50D4"
+				item: "electrodynamics:circuitultimate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4E1C86B6FD89F9FB"
+				"630566412BDDE010"
+			]
+			description: ["The wire mill consumes 2,5kW at 120V"]
+			id: "5DCE93AF4AB2709E"
+			subtitle: "Easier wires"
+			tasks: [{
+				id: "64A5293BBF2C3276"
+				item: "electrodynamics:wiremill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C0E275E312ABC55"]
+			description: [
+				"The fermentation plant consumes 400W at 120V"
+				""
+				"Be careful, if you place a bucket to take ethanol in the fermentation plant it will change into an empty canister ( you can fill it later but you just lost 1 bucket of ethanol)"
+			]
+			id: "5380841359263A3F"
+			tasks: [{
+				id: "0418A0D2F831B65C"
+				item: "electrodynamics:fermentationplant"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D2A2D5E28FD651C"]
+			description: ["The chemical crystallizer consumes 16kW at 240V"]
+			id: "51A522D7A961748E"
+			tasks: [{
+				id: "1A2C0A337A90EC0D"
+				item: "electrodynamics:chemicalcrystallizer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["73EB1C621D05177E"]
+			description: ["The chemical mixer consumes 8kW at 240V"]
+			id: "596FA01D67C55526"
+			tasks: [{
+				id: "6BC94ED4F2BBDE18"
+				item: "electrodynamics:chemicalmixer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25385931BB9BF451"]
+			id: "07F90F40A03D2FDE"
+			tasks: [{
+				id: "44A6506F494AD064"
+				item: "electrodynamics:orechromium"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"51A522D7A961748E"
+				"596FA01D67C55526"
+				"07F90F40A03D2FDE"
+				"5380841359263A3F"
+			]
+			description: ["You can and should craft this with a loop"]
+			id: "59383D57832BB5E5"
+			tasks: [{
+				id: "08F49EBDB7F68C23"
+				item: "electrodynamics:sheetplastic"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4E1C86B6FD89F9FB"
+				"193872AFAB3CA117"
+			]
+			id: "673524BDF42FBD15"
+			tasks: [{
+				id: "2B3BF9F79DA576D6"
+				item: {
+					Count: 1
+					id: "electrodynamics:battery"
+					tag: {
+						joules: 0.0d
+						maximumcapacity: 1666666.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["673524BDF42FBD15"]
+			description: [
+				"Can turn electrodynamics's power into RF and vice versa"
+				""
+				"BUT do not try to link these two types of cables"
+			]
+			id: "57E7F4EE12B94F2E"
+			tasks: [{
+				id: "07C4533334447222"
+				item: "electrodynamics:batterybox"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4C0E275E312ABC55"
+				"00D29AE4EBF43EAD"
+			]
+			description: ["The mineral grinder consumes 7kW at 120V"]
+			id: "0251BDC0782D77A6"
+			tasks: [{
+				id: "5E092D2718F3C6A0"
+				item: "electrodynamics:mineralgrinder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["264EFD98EAFBC12D"]
+			description: ["Speed machine but use more energy"]
+			id: "7E9AAED43F81F17E"
+			tasks: [{
+				id: "0642A1FA3B809291"
+				item: "voltaic:upgradebasicspeed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["264EFD98EAFBC12D"]
+			description: [
+				"Simple solar panel produce 672W at 120V. 5,6A"
+				"Advanced solar panel produce 4,8kW at 240V. 20A"
+			]
+			id: "1591688F59FF1A2D"
+			tasks: [{
+				id: "58B8896CCF2C0A55"
+				item: "electrodynamics:advancedsolarpanel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["264EFD98EAFBC12D"]
+			description: [
+				"Divides the voltage by 2."
+				""
+				"240V---Downgrade transformer---120V "
+				"480V---Downgrade transformer,Upgrade transformer---120V"
+			]
+			id: "125F17B9C471D530"
+			tasks: [{
+				id: "0B48769A90E11E98"
+				item: "electrodynamics:downgradetransformer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F665659D3B765F1"]
+			description: [
+				"All machines produce or use 2 types of \"power\"."
+				""
+				"There is the voltage, it's the tier of the machine. Its unit is the volt (V). (120V, 240V, 480V, 960V)"
+				""
+				"There is the wattage, it's the equivalent of RF. Its unit is the watt (W). 1000W = 1kW."
+				""
+				"Multimeter block can show information from your wire network"
+			]
+			id: "73BD06279F9083AE"
+			rewards: [{
+				id: "77B57403C42561E0"
+				item: "electrodynamics:multimeterblock"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "4654C37537FA9FA0"
+				title: "Voltage"
+				type: "checkmark"
+			}]
+			title: "Voltage and energy"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F665659D3B765F1"]
+			description: [
+				"To transport this energy you need wire. "
+				"If you don't insulate your wire and step on it you take damage."
+				""
+				"Wires has 2 units :"
+				""
+				"-Resistance : Ohm (Ω). 1mΩ = 0.001Ω. Each wire resists the flow of electricity, this mean the more you have wire attached the more loss you have."
+				""
+				"-Amperage (A). Your wire has a capacity, for an insulated copper wire it's 360A. Each machine that produce energy gives ampere, advanced solar panel gives 20A. That mean you can place 18 advanced solar panel on a single wire \"network\". If you place one more all wires burn instantly."
+			]
+			id: "456580393CE002B3"
+			rewards: [{
+				id: "61AE3153FD70B90A"
+				item: "electrodynamics:multimeterblock"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "33FEF0A3EF91A8A2"
+				title: "Transport"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00D29AE4EBF43EAD"]
+			description: ["Coal generator produce 4,08kW at 120V but need to heatup. 34A"]
+			id: "6C3C1707F268309E"
+			tasks: [{
+				id: "13F09B41C839B3A1"
+				item: "electrodynamics:coalgenerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73EB1C621D05177E"]
+			description: ["The mineral crusher consumes 9kW at 240V"]
+			id: "1FEF98E20BAED1CF"
+			subtitle: "Easier plates"
+			tasks: [{
+				id: "0D9E039BC52103EE"
+				item: "electrodynamics:mineralcrusher"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F665659D3B765F1"]
+			description: [
+				"If you don't have enough wattage your machine won't work."
+				"It work at slow pace if you miss just a little bit watts."
+				""
+				"If you don't match the voltage your machine explode (with everything else in the range)"
+			]
+			id: "4C46ED4F81FB69FB"
+			rewards: [{
+				id: "008C7D35DB6DF640"
+				item: "electrodynamics:multimeterblock"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "2AB0A261042564FD"
+				title: "Machines"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1591688F59FF1A2D"]
+			description: ["Upgrade your advanced solar panel to 10,8kW but also increase to 45A"]
+			id: "28471EA8A14E82E0"
+			tasks: [{
+				id: "6843AF31C029E660"
+				item: "voltaic:upgradeimprovedsolarcell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00D29AE4EBF43EAD"]
+			id: "2307F1F5D3AF58E8"
+			tasks: [{
+				id: "52FB1760E68B62E1"
+				item: "electrodynamics:electricpump"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E9AAED43F81F17E"]
+			id: "6EDAB25B815B8B86"
+			tasks: [{
+				id: "356EDB86DEFD5F31"
+				item: "voltaic:upgradeadvancedspeed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	title: "ElectroDynamics"
+}

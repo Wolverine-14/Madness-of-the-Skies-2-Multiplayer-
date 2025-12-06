@@ -1,0 +1,16 @@
+{
+    "name": "Thermonuclear alloy",
+    "colors": [
+      "cb2c2d",
+      "fec3c4"
+    ],
+    "ingredient": {
+      "item": "mekanism_extras:alloy_thermonuclear"
+    },
+    "inUltimateSingularity": true
+  }
+
+
+
+
+

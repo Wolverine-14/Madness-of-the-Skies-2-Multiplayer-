@@ -1,0 +1,345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "refined_storage"
+	group: "2BAFEAA6F82C275C"
+	icon: "refinedstorage:controller"
+	id: "3A59C0675EB4FF87"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F8129D771F14794"]
+			id: "0582C322C648CBF2"
+			tasks: [{
+				id: "5636D39F3E514D7A"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0582C322C648CBF2"]
+			id: "2B0D9D7EE6563208"
+			tasks: [{
+				id: "764AD79CBCC8B73C"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0582C322C648CBF2"]
+			id: "5ADB5C866EC852EC"
+			tasks: [{
+				id: "408316318C30DCC2"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0582C322C648CBF2"]
+			id: "5E4EECCB873D27BA"
+			tasks: [{
+				id: "5F2877244B37B1C4"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0582C322C648CBF2"]
+			description: [
+				"This machine is needed to automate crafting."
+				"Just place your encoded pattern in it"
+			]
+			id: "5F2C5FF3246830D6"
+			tasks: [{
+				id: "7C422222F871C307"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B0D9D7EE6563208"]
+			id: "07806427A7466B04"
+			tasks: [{
+				id: "1A71D3421975B1B0"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07806427A7466B04"]
+			id: "7137BE5C80C8B7FD"
+			tasks: [{
+				id: "1208CE45588C9301"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7137BE5C80C8B7FD"]
+			id: "02534874FED02230"
+			tasks: [{
+				id: "4916415B68744DC6"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02534874FED02230"]
+			id: "7BDD11B167EBD071"
+			tasks: [{
+				id: "444FD60934294C07"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BDD11B167EBD071"]
+			id: "57452E4E6C8EEF78"
+			tasks: [{
+				id: "5077D4925BB6F4C8"
+				item: "extrastorage:storagepart_256k"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57452E4E6C8EEF78"]
+			id: "0C3E215706957F1D"
+			tasks: [{
+				id: "3CBE4CAB148BD019"
+				item: "extrastorage:storagepart_1024k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C3E215706957F1D"]
+			id: "00DB32663AC5C771"
+			tasks: [{
+				id: "118778685CA3C0DC"
+				item: "extrastorage:storagepart_4096k"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00DB32663AC5C771"]
+			id: "6C34E52111C3AACA"
+			tasks: [{
+				id: "61BC9A598BC1736F"
+				item: "extrastorage:storagepart_16384k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E4EECCB873D27BA"]
+			id: "23E7B08F01BBAE5E"
+			tasks: [{
+				id: "0719CF47109A5463"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E4EECCB873D27BA"]
+			id: "41B1C34651F466C2"
+			tasks: [
+				{
+					id: "1C1F06EE37304A7A"
+					item: "refinedstorage:crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "7653DBB1060A1C48"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41B1C34651F466C2"]
+			id: "7FC24CDE1ECDC488"
+			tasks: [{
+				id: "2B0D679006E8825D"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23E7B08F01BBAE5E"]
+			id: "3DAE04CDCE2CD07E"
+			tasks: [{
+				id: "2FA0FDC3148DFA08"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3DAE04CDCE2CD07E"]
+			id: "5EF159FDA4C1E250"
+			tasks: [{
+				id: "5B303720C466C866"
+				item: "universalgrid:wireless_universal_grid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F2C5FF3246830D6"]
+			description: ["Each tier give more space and more speed for crafting"]
+			id: "470FEDB5F10A914D"
+			tasks: [{
+				id: "19902F6B77D4B668"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["470FEDB5F10A914D"]
+			id: "3AB2762CE7D6146B"
+			tasks: [{
+				id: "015BCD896071B14D"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AB2762CE7D6146B"]
+			id: "6B157CC773D35FA8"
+			tasks: [{
+				id: "6B963D42928FEE56"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B157CC773D35FA8"]
+			id: "0F205621CB381640"
+			tasks: [{
+				id: "2722728C797FB379"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ADB5C866EC852EC"]
+			id: "5F374824DF59401E"
+			tasks: [{
+				id: "63566E6DEB46467C"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5ADB5C866EC852EC"]
+			id: "48CB83C15AFAC67A"
+			tasks: [{
+				id: "2C2067F17645715B"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F374824DF59401E"]
+			id: "4EE9D6F81EFFF7B6"
+			tasks: [{
+				id: "2D91BC574ACB7907"
+				item: "extrastorage:advanced_exporter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48CB83C15AFAC67A"]
+			id: "22CBF4753B01D289"
+			tasks: [{
+				id: "2A3D7A9B7D17A262"
+				item: "extrastorage:advanced_importer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5ADB5C866EC852EC"]
+			id: "112E5955A8838653"
+			tasks: [{
+				id: "7CB8E56AC22E8464"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ADB5C866EC852EC"]
+			id: "436F5E74812762CB"
+			tasks: [
+				{
+					id: "1861AE1ED74B6B6E"
+					item: "refinedstorage:speed_upgrade"
+					type: "item"
+				}
+				{
+					id: "52C17CBA0963A8D8"
+					item: "refinedstorage:stack_upgrade"
+					type: "item"
+				}
+				{
+					id: "67CF1939F7686C12"
+					item: "refinedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Refined Storage"
+}

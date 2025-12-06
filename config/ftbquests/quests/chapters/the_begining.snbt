@@ -1,0 +1,373 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_begining"
+	group: "758631C161183294"
+	icon: "ars_caelum:ritual_conjure_island_starter"
+	id: "5DE1E6409B4CE93D"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7642412D34654EAE"]
+			description: ["To start the pack place the brazier on the bedrock, put the tablet in it then right click"]
+			id: "24515824455D8347"
+			rewards: [
+				{
+					id: "78EC0830A374511F"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "7E7E7519BB42368D"
+					item: "ars_caelum:ritual_conjure_island_starter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EF7A834AF41B59F"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			title: "The beginning of the end"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24515824455D8347"]
+			description: [""]
+			id: "33106B69998A9F69"
+			subtitle: "Observation archwood chest"
+			tasks: [{
+				id: "03709A89D100EA52"
+				observe_type: 0
+				timer: 0L
+				title: "Starter Island"
+				to_observe: "ars_nouveau:archwood_chest"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DF356B37DDAE58B"]
+			description: [
+				"Tablet of sedimentation need to be place in a brazier like the first tablet."
+				"Its effect in the transform water in cobblestone in a range of 3x3 (1 on each side)"
+				"To make a cobblestone generator you need to make an infinite water source with only one corner in the range "
+			]
+			id: "5470062D9F637188"
+			tasks: [{
+				count: 8L
+				id: "40014F014A5ACA88"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Cobblestone generator without lava ?"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33106B69998A9F69"]
+			description: ["Upgrade your spell book"]
+			id: "5886D8B86D77280F"
+			tasks: [{
+				id: "564E97714F40A811"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "Stonger spell books"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5886D8B86D77280F"]
+			description: ["Once the conjure water glyph is learned you can create a spell. The assigned key to open the book is C by default."]
+			icon: "ars_nouveau:glyph_conjure_water"
+			id: "7DF356B37DDAE58B"
+			tasks: [{
+				id: "7FFF990032CD142B"
+				title: "Water source"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5470062D9F637188"]
+			description: [
+				"Create a new spell but with the glyph of crush this time."
+				"Use this spell on cobblestone to transform it in gravel with a chance to drop something else."
+				"You can use the tablet of mana regeneration to regain mana faster but be careful, once a tablet is used you can't get it back by breaking the brazier."
+				""
+			]
+			id: "50CEF2870ECA0673"
+			rewards: [{
+				id: "365A7A4D527C4D14"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D7EE4BFEA5D47ED"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "34E1E02EE8FDAB79"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "578B895C4F128E9D"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Ingots"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50CEF2870ECA0673"]
+			id: "4EBA883BBDEDAEB9"
+			tasks: [{
+				id: "61A28DA5CB8EC905"
+				item: "cobblefordays:tier_3"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5470062D9F637188"]
+			id: "788D2C63513D9D0C"
+			tasks: [{
+				id: "649AEAAC6619C628"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			title: "Lapis Lazuli"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5470062D9F637188"]
+			id: "491A432D7A3AD18E"
+			tasks: [
+				{
+					id: "4A7840DBE3D0EA7B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "2D39CFF8614C4B33"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			title: "More resources from sand"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F158082396EF88A"]
+			description: ["It's better to break copper ore with a pickaxe"]
+			id: "4A1C6A490CE67CF2"
+			tasks: [
+				{
+					id: "46D174D2BD3CB119"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "2370F8CF281E00D7"
+					item: "minecraft:gold_ore"
+					type: "item"
+				}
+				{
+					id: "2CB1CB60BC5138A4"
+					item: "minecraft:copper_ore"
+					type: "item"
+				}
+			]
+			title: "Ores"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2F158082396EF88A"
+				"788D2C63513D9D0C"
+			]
+			id: "3F7E79DC61CA8984"
+			tasks: [{
+				id: "4D1BB1660D8E38EA"
+				item: "minecraft:lapis_ore"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["491A432D7A3AD18E"]
+			id: "0A6A30E31CD39155"
+			tasks: [{
+				id: "3A08CDB7C3FB8B83"
+				item: "minecraft:redstone_ore"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EBA883BBDEDAEB9"]
+			id: "61DB69CB90164632"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4732CBC0FA3EC54F"
+				title: "Chapter 2"
+				type: "checkmark"
+			}]
+			title: "Chapter 1.5"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50CEF2870ECA0673"]
+			id: "2F158082396EF88A"
+			tasks: [{
+				id: "0E1F3506C1D52C24"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			title: "Ore x2"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F158082396EF88A"]
+			description: [
+				"Tips:"
+				"Place two armor stands on the squeezer and a hopper to automatically insert items in the machine."
+				"Once done, press the squeezer once at the very bottom."
+				"Then activate it with a button. (a vanilla redstone clock could work)"
+				""
+				"Now you don't have to jump anymore"
+			]
+			id: "46EA4F9916D6F76C"
+			tasks: [{
+				count: 2L
+				id: "19CA7999C9277B19"
+				item: { Count: 2, id: "minecraft:armor_stand" }
+				type: "item"
+			}]
+			title: "\"automation\" for squeezer"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5470062D9F637188"]
+			id: "51B3932322CD5726"
+			tasks: [{
+				id: "32E948A8DB0B496E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"50CEF2870ECA0673"
+				"491A432D7A3AD18E"
+			]
+			description: [
+				"Use it to speed up machines like furnace."
+				"Be careful to not use it on electrodynamics machines (or they will explode)"
+				"Also work on botania's flowers"
+				""
+				"Use in moderation, may cause severe lag"
+			]
+			id: "795B6765E90CB4ED"
+			tasks: [{
+				id: "0888B4137C2723A7"
+				item: "torcherino:torcherino"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["491A432D7A3AD18E"]
+			id: "6FBC0EEAFD54B0A9"
+			tasks: [{
+				id: "00F953FCAA5BEB3C"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+	]
+	title: "Chapter 1 : The Beginning"
+}

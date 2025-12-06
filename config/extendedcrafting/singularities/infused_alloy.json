@@ -1,0 +1,11 @@
+{
+    "name": "Infused alloy",
+    "colors": [
+      "bd2a28",
+      "fcac7e"
+    ],
+    "ingredient": {
+      "item": "mekanism:alloy_infused"
+    },
+    "inUltimateSingularity": true
+  }

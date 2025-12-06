@@ -1,0 +1,11 @@
+{
+    "name": "Silicon",
+    "colors": [
+      "8d818f",
+      "444046"
+    ],
+    "ingredient": {
+      "item": "refinedstorage:silicon"
+    },
+    "inUltimateSingularity": true
+  }

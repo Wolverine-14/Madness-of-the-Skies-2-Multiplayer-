@@ -1,0 +1,11 @@
+{
+    "name": "Antimatter pellet",
+    "colors": [
+      "feb2ef",
+      "4e2368"
+    ],
+    "ingredient": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "inUltimateSingularity": true
+  }

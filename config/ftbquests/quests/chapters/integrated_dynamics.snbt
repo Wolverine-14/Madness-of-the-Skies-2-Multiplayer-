@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "integrated_dynamics"
+	group: "2BAFEAA6F82C275C"
+	icon: "integrateddynamics:menril_sapling"
+	id: "200B8294DE9CCBE1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5342C22C0D1C7055"
+			tasks: [{
+				id: "3C54E92993FB18E6"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EF3B060802FE1EE"]
+			id: "32F8157AEA0FAE77"
+			tasks: [{
+				id: "4517946617437954"
+				item: "integrateddynamics:crystalized_menril_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5342C22C0D1C7055"
+				"35AEC48D330A455E"
+				"3A5243A47C29B20A"
+			]
+			id: "0B5DF267CF96AFE5"
+			tasks: [{
+				id: "2E219F04527289C3"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32F8157AEA0FAE77"]
+			description: ["To export rf from this battery you need to add a redstone power ( a lever for example )"]
+			id: "3A5243A47C29B20A"
+			tasks: [{
+				id: "3130305B9BA28C44"
+				item: {
+					Count: 1
+					id: "integrateddynamics:energy_battery"
+					tag: {
+						energy: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D45DE4050ADE832"]
+			id: "1122E9B36F0FD23D"
+			tasks: [{
+				id: "6AD8E58E6ABDA788"
+				item: "integrateddynamics:drying_basin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1122E9B36F0FD23D"
+				"3A5243A47C29B20A"
+			]
+			id: "440475F048ADBC74"
+			tasks: [{
+				id: "19034082E933BE91"
+				item: "integrateddynamics:mechanical_drying_basin"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1122E9B36F0FD23D"]
+			id: "0978CA16E3995099"
+			tasks: [{
+				id: "5160885DAC3F6089"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A5243A47C29B20A"]
+			id: "4ABE43CD164807D6"
+			tasks: [{
+				id: "63933EEDF6F48F5A"
+				item: "integrateddynamics:coal_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32F8157AEA0FAE77"]
+			description: ["Provides access to the contents of the storage"]
+			id: "2032A3512BCDE790"
+			tasks: [{
+				id: "587BA0BF8A107FB4"
+				item: "integratedtunnels:part_interface_item"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32F8157AEA0FAE77"]
+			description: ["First storage system"]
+			id: "7E8163F2862673FF"
+			tasks: [{
+				id: "1B8A49991D270B3B"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0978CA16E3995099"]
+			id: "01F457AC34496162"
+			tasks: [{
+				id: "783F13F765E0CA79"
+				item: "integrateddynamics:proto_chorus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01F457AC34496162"]
+			id: "30E88E4AAD0E41F2"
+			tasks: [{
+				id: "30CB5039B298C9FE"
+				item: "integrateddynamics:crystalized_chorus_chunk"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30E88E4AAD0E41F2"]
+			description: ["Just place on a cable link with your storage"]
+			id: "609B0B9823140A07"
+			tasks: [{
+				id: "0EC090E420AEAD21"
+				item: "integrateddynamics:part_connector_omni_directional"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"609B0B9823140A07"
+				"7E8163F2862673FF"
+			]
+			description: ["Click this on the omni-directional connector to link it"]
+			id: "5EB0E2C1C28E9465"
+			tasks: [{
+				id: "1BF27973FB544DC5"
+				item: "integratedterminals:terminal_storage_portable"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["32F8157AEA0FAE77"]
+			id: "39D72F7BA7BF9648"
+			tasks: [{
+				id: "4AC2F881BA07A242"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32F8157AEA0FAE77"]
+			description: ["Variable card is needed on import and export (energy, item and fluid)"]
+			id: "08CA9A35B7908DBE"
+			tasks: [
+				{
+					id: "126D7860A47269EB"
+					item: "integrateddynamics:logic_programmer"
+					type: "item"
+				}
+				{
+					id: "24BD4D9E602C3C6E"
+					item: "integrateddynamics:variable"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A5243A47C29B20A"]
+			id: "7548F316476DBEB8"
+			tasks: [{
+				id: "442D8CD5EF0E9929"
+				item: "integratedtunnels:part_interface_energy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Integrated Dynamics"
+}

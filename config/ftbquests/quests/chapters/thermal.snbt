@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "thermal"
+	group: "2BAFEAA6F82C275C"
+	icon: "thermal:machine_pulverizer"
+	id: "6280FBB6280D30DD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5AEFC543A9972B63"]
+			id: "2796458DD0925561"
+			tasks: [{
+				id: "2586A255991F078F"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2796458DD0925561"]
+			id: "1AB9F8B11C2CFF78"
+			tasks: [{
+				id: "7100DAE098941FED"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2796458DD0925561"]
+			id: "4406618083DD0B41"
+			tasks: [{
+				id: "40078839B8E2CA50"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2796458DD0925561"]
+			id: "2299207F0687593C"
+			tasks: [{
+				id: "09418CE87028E913"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2796458DD0925561"]
+			id: "3686B34CA5ECB702"
+			tasks: [{
+				id: "6586839B522D045E"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2796458DD0925561"]
+			id: "15FFE627674A5F70"
+			tasks: [{
+				id: "28E6C1FB96560809"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "4B03CF5DBA8ACC6A"
+			tasks: [{
+				id: "0E03903B2B7EF29E"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "238E2AB8834C2605"
+			tasks: [{
+				id: "50C559659DA2074E"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "6B388424F4868C44"
+			tasks: [{
+				id: "7CA7C3EA88586939"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "7399884E620CA4E1"
+			tasks: [{
+				id: "5BFBA53144FB1A48"
+				item: "thermal_extra:dragonsteel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4406618083DD0B41"
+				"176E4C08F8E42F11"
+			]
+			id: "543F76AE49E515B3"
+			tasks: [{
+				id: "595C2828E73EF977"
+				item: "thermal_extra:abyssal_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "5318692C1F7C5DD8"
+			tasks: [{
+				id: "4D9103F5C4ED0A7C"
+				item: "thermal_extra:twinite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38522A9E14A507FF"]
+			id: "5703ECD165BC5E1B"
+			tasks: [{
+				id: "05540E23829DB9AE"
+				item: "thermal_extra:ancient_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["347592DDE8F83783"]
+			description: ["Can be found in the End by killing the dragon"]
+			id: "38522A9E14A507FF"
+			tasks: [{
+				id: "4FF02403B5765E64"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "70CB946F31AEB406"
+			tasks: [{
+				id: "4F018420FC3979F4"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B03CF5DBA8ACC6A"]
+			description: ["Each tier upgrade the efficiency of the machine, also work on dynamo"]
+			id: "09B31647E01E8775"
+			tasks: [{
+				id: "4EE66CECEBE89804"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"238E2AB8834C2605"
+				"70CB946F31AEB406"
+			]
+			id: "5695100DF4BF3AD8"
+			tasks: [{
+				id: "439AC25BF6B8BED2"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B388424F4868C44"
+				"7BB6428B85BE3CA5"
+			]
+			id: "4989E9315B8A66D8"
+			tasks: [{
+				id: "27F8847B66547B59"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7399884E620CA4E1"
+				"5703ECD165BC5E1B"
+			]
+			id: "6819FAB3D5EC11F0"
+			tasks: [{
+				id: "3BFD78F852431917"
+				item: "thermal_extra:upgrade_augment"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"543F76AE49E515B3"
+				"5703ECD165BC5E1B"
+			]
+			id: "2198B579F1F5C1D0"
+			tasks: [{
+				id: "5DBC0D6B9CE29001"
+				item: "thermal_extra:abyssal_upgrade_augment"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "7BB6428B85BE3CA5"
+			tasks: [{
+				id: "1126B3C204721E5B"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26B0598CAD044C7A"]
+			description: ["Obtain by killing the warden"]
+			id: "176E4C08F8E42F11"
+			tasks: [{
+				id: "6B2D5514F3FA259F"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "765A93750AA2837D"
+			tasks: [{
+				id: "23C8FCCEA2DB82A5"
+				item: "thermal_extra:soul_infused_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["765A93750AA2837D"]
+			id: "6CD8B7D65A55AD6E"
+			tasks: [{
+				id: "30D87090777ADD96"
+				item: "thermal_extra:device_lava_gen"
+				type: "item"
+			}]
+			title: "Infinite lava"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2796458DD0925561"
+				"5318692C1F7C5DD8"
+			]
+			description: [""]
+			id: "6D45A572D6E457F7"
+			tasks: [{
+				id: "655FA44F11292733"
+				item: "thermal_extra:endothermic_dehydrator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4406618083DD0B41"]
+			id: "18E642221A9FF892"
+			tasks: [{
+				id: "5FD26A0E7735BB96"
+				item: "thermal_extra:shellite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38AF03CAFB5E5D9E"]
+			description: ["Can be automated ( botany pot then burn wood or charcoal )"]
+			id: "34EAC9AB11A6D1F5"
+			tasks: [{
+				id: "1E9B730F6F340E53"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Thermal"
+}

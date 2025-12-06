@@ -1,0 +1,12 @@
+name = "Madness of the skies 2"
+version = "v12"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9853b0f067cbd6b7a15c4e702dce1497f7803d2fbd4bbc7452b00b757adfe1b3"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"

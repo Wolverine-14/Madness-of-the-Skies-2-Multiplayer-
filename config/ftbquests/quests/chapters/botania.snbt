@@ -1,0 +1,1804 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "758631C161183294"
+	icon: "minecraft:iron_ore"
+	id: "0AD84CB94B63BC12"
+	images: [
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.5d
+			y: -16.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.5d
+			y: -2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D45DE4050ADE832"]
+			id: "0519D801EEFDF2A4"
+			tasks: [{
+				id: "54954C1256A4B502"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0519D801EEFDF2A4"]
+			id: "6EF3B060802FE1EE"
+			tasks: [{
+				id: "41500625DDCD82F6"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F42E28DF704BAEC"]
+			id: "0D45DE4050ADE832"
+			tasks: [{
+				id: "13B3C6DFB61B9DC7"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EF3B060802FE1EE"]
+			id: "167A4C0318A452F9"
+			tasks: [
+				{
+					count: 16L
+					id: "5D8D492F8594ED3B"
+					item: { Count: 16, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "466DDC1F50A23992"
+					item: { Count: 16, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
+			title: "Living things"
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0519D801EEFDF2A4"]
+			id: "5B51C9A78612DD7B"
+			tasks: [{
+				id: "10B49253EC06570C"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["167A4C0318A452F9"]
+			id: "2130D928B3DD31C7"
+			tasks: [{
+				id: "6DC574379C0E4FA9"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["167A4C0318A452F9"]
+			id: "6B4FD49A2B413763"
+			tasks: [{
+				id: "788E475724884868"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2130D928B3DD31C7"
+				"6B4FD49A2B413763"
+			]
+			id: "7A95DDF2F2A427F4"
+			tasks: [{
+				id: "317E9FEFBEE85A88"
+				item: "thermal:tin_ore"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A95DDF2F2A427F4"]
+			id: "193872AFAB3CA117"
+			tasks: [{
+				id: "1314AFFC2BEA5039"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["193872AFAB3CA117"]
+			description: ["DO NOT CONNECT THERMAL MACHINES WITH YOUR ELECTRODYNAMIS'S POWER"]
+			id: "5AEFC543A9972B63"
+			tasks: [{
+				id: "5F467D9200BA0769"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["630566412BDDE010"]
+			id: "3DCF52C2853DA840"
+			tasks: [{
+				id: "690F26BB6BC046D3"
+				item: "electrodynamics:wiremill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["193872AFAB3CA117"]
+			id: "630566412BDDE010"
+			tasks: [{
+				id: "05F7909AB3D2B0B3"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5AEFC543A9972B63"]
+			description: [" "]
+			id: "38BD48A5AF8B0227"
+			tasks: [{
+				id: "3BC33010E8C5803C"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38BD48A5AF8B0227"]
+			id: "0E5925F305E99155"
+			tasks: [{
+				id: "526285A916B10CAC"
+				item: "thermal:nickel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AEFC543A9972B63"]
+			id: "48D4F3739C0BE692"
+			tasks: [{
+				id: "7F6636FFDAA50EAD"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"38BD48A5AF8B0227"
+				"273C99ED365BE40F"
+			]
+			id: "7C088B1A522F2421"
+			tasks: [{
+				id: "25B29877678B7C38"
+				item: "thermal:quartz_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5AEFC543A9972B63"]
+			id: "4FC2EDA3C27FCDAB"
+			tasks: [{
+				id: "15DE648CD081CAC2"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7C088B1A522F2421"
+				"684F2D52614D6189"
+			]
+			id: "70BF7924860550CA"
+			tasks: [{
+				id: "658845417FC2699B"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2130D928B3DD31C7"
+				"6B4FD49A2B413763"
+				"1C3A488362633780"
+			]
+			id: "7B1F8A2B84D9F015"
+			tasks: [{
+				id: "1FBCC465C16CA4D9"
+				item: "thermal:lead_ore"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B1F8A2B84D9F015"]
+			id: "48D747C86515E139"
+			tasks: [{
+				id: "6357FA342CE7AAA0"
+				item: "thermal:silver_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48D747C86515E139"]
+			id: "684F2D52614D6189"
+			tasks: [{
+				id: "5778D23144471F74"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70BF7924860550CA"]
+			id: "6BB91843BC61ED7A"
+			tasks: [{
+				id: "765436FBDCF14697"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["684F2D52614D6189"]
+			id: "6741118D65F1EC6F"
+			tasks: [{
+				id: "745B93B364397A59"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6741118D65F1EC6F"]
+			id: "794AC839C91254B6"
+			tasks: [{
+				id: "7F111F94B62E2763"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["794AC839C91254B6"]
+			id: "333238C427306AEC"
+			tasks: [{
+				id: "3DF0500AE6161A2A"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["333238C427306AEC"]
+			id: "35AEC48D330A455E"
+			tasks: [{
+				id: "1A390C78E8BB1E36"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6EF3B060802FE1EE"]
+			id: "223184444696B0E6"
+			tasks: [{
+				id: "69F57A2849C2D473"
+				item: "integrateddynamics:crystalized_menril_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["333238C427306AEC"]
+			id: "156859888A9B08E6"
+			tasks: [{
+				id: "3A7E5B7FCC63FBD5"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1CE1349EAC198635"]
+			id: "79407F489EFF9A8C"
+			tasks: [
+				{
+					id: "53F2C9A9E5A3625B"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "5D8EB76DA4434721"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["38BD48A5AF8B0227"]
+			id: "607F3C6268BA34D3"
+			tasks: [{
+				id: "21F7BB71BA5B3E9C"
+				item: "thermal:sawdust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["607F3C6268BA34D3"]
+			id: "1B6FC8F9A1EC5327"
+			tasks: [{
+				id: "15D0D419F0E250F3"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["223184444696B0E6"]
+			id: "1AC0298F08788E9C"
+			tasks: [
+				{
+					id: "2CDCC7CE0CB2CE2F"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+				{
+					id: "053E72B27B528769"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+				{
+					id: "29B2424166FC1F26"
+					item: "integratedtunnels:part_interface_energy"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6EF3B060802FE1EE"]
+			id: "60CD24151D23E06B"
+			tasks: [{
+				id: "5AFF263A19A1303A"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"60CD24151D23E06B"
+				"1AC0298F08788E9C"
+			]
+			id: "716D9DE14DD9933B"
+			tasks: [{
+				id: "6B7DC943996FEF26"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["333238C427306AEC"]
+			description: ["Volcanic sourcelink produce more mana if you use blazing archwood as fuel"]
+			id: "2250A2437C325EC4"
+			tasks: [
+				{
+					id: "22B2D33414517C8E"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "455F462534B8CC93"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2250A2437C325EC4"]
+			id: "2268D4C9827D02BB"
+			tasks: [
+				{
+					id: "370FF29F1B1AA04B"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "4A897162050FC339"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2268D4C9827D02BB"]
+			id: "76D99D6B4BB0D483"
+			tasks: [{
+				id: "6F10D8ADF42BF0F8"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "Infinite brazier"
+			x: -7.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2268D4C9827D02BB"]
+			id: "77EA7C5BDFCF10E3"
+			tasks: [{
+				id: "7A8859362D63EC19"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["77EA7C5BDFCF10E3"]
+			id: "38ED8D7146D93013"
+			tasks: [{
+				id: "275359B4535F69FB"
+				item: "ars_nouveau:red_archwood_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["77EA7C5BDFCF10E3"]
+			id: "5706FFE8FBDD07E2"
+			tasks: [{
+				id: "1E90EB7A072783C0"
+				item: "ars_nouveau:purple_archwood_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5706FFE8FBDD07E2"]
+			description: [""]
+			id: "0053FE4700BD9905"
+			tasks: [{
+				id: "5FD5B8CFB46A8A76"
+				item: "ars_caelum:ritual_conjure_island_geode"
+				type: "item"
+			}]
+			title: "Easy source gem"
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2268D4C9827D02BB"]
+			id: "310E9C95696E3188"
+			tasks: [
+				{
+					id: "1C49B55ACCE277AE"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "2039DF048588F6A5"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "340D21B8E4F0FA73"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"223184444696B0E6"
+				"333238C427306AEC"
+			]
+			id: "7083898D180DE37B"
+			tasks: [{
+				id: "2FA7503B6994BE71"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79407F489EFF9A8C"]
+			id: "5B8AF7384F810E45"
+			tasks: [
+				{
+					id: "7DEE7387A1CBC5FD"
+					item: "mob_grinding_utils:saw"
+					type: "item"
+				}
+				{
+					id: "350D178FC113FF66"
+					item: "mob_grinding_utils:absorption_hopper"
+					type: "item"
+				}
+				{
+					id: "5A153F9F28D0CF43"
+					item: "mob_grinding_utils:tank"
+					type: "item"
+				}
+				{
+					id: "129D677D519B22FE"
+					item: "mob_grinding_utils:fan"
+					type: "item"
+				}
+			]
+			title: "Mob farm"
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5706FFE8FBDD07E2"]
+			description: ["Spawn few passive mobs ( vanilla and modded )"]
+			id: "428DB20E09E5FF7D"
+			tasks: [{
+				id: "17CA18FE508DCEA8"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			title: "Animals"
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["167A4C0318A452F9"]
+			description: ["Look at the ars nouveau quest page to find the missing items for the runes."]
+			id: "1EC054499CA4786F"
+			tasks: [
+				{
+					id: "13DA12EC28E39E95"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F2C3D0848F74B75"
+					item: { Count: 4, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "77952719B9732F2B"
+					item: { Count: 5, id: "botania:livingrock" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EC054499CA4786F"]
+			id: "48224D7CD492B66D"
+			tasks: [{
+				id: "10EEF520D4BCE391"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48224D7CD492B66D"]
+			id: "1E80C71F4D670A50"
+			tasks: [{
+				id: "787A7D07AB069C27"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["16D3AE3C78143DF0"]
+			id: "774C0651D6959216"
+			tasks: [{
+				id: "418C60FD88868E0B"
+				item: "botania:dreamwood"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"774C0651D6959216"
+				"1F2150F93113849A"
+			]
+			id: "0B731F240E65A09F"
+			tasks: [{
+				id: "38E28134FB104351"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"16E484F002648695"
+				"7970CF3ED8F176F8"
+			]
+			id: "06790B7F7897406F"
+			tasks: [
+				{
+					id: "617213405A74CED0"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0878FD84DAA430F6"
+					item: { Count: 4, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5AEFC543A9972B63"]
+			id: "4FFCA1948AFAFBB4"
+			tasks: [{
+				id: "578172284C681BDF"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FFCA1948AFAFBB4"]
+			id: "29C134B0FEC74EC0"
+			tasks: [{
+				id: "69316D336EBB7105"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2268D4C9827D02BB"]
+			id: "0A6CBB4B7B8D4C02"
+			tasks: [{
+				id: "3D68919FD3DC1FC2"
+				item: "ars_nouveau:ritual_forestation"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0B731F240E65A09F"]
+			id: "71577A2729021A64"
+			tasks: [{
+				id: "25B5F2053113574E"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0B731F240E65A09F"]
+			id: "58DAA860489CFC67"
+			tasks: [{
+				id: "04C7340391A100B7"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0B731F240E65A09F"]
+			id: "7C8748E3FB08E292"
+			tasks: [{
+				id: "05E4FF99AF1A9368"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"58DAA860489CFC67"
+				"71577A2729021A64"
+			]
+			id: "7970CF3ED8F176F8"
+			tasks: [{
+				id: "5F88D9F62A7C40E2"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"7C8748E3FB08E292"
+				"71577A2729021A64"
+				"11637DF2529E4C97"
+			]
+			id: "16E484F002648695"
+			tasks: [{
+				id: "2F86F5978530A1B9"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["06790B7F7897406F"]
+			id: "540DD90DDC41A474"
+			tasks: [{
+				id: "711B1D4D583316B8"
+				item: "industrialforegoing:laser_lens9"
+				type: "item"
+			}]
+			title: "electrodynamics's ore"
+			x: -10.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["06790B7F7897406F"]
+			id: "5211BD77AEDDB6E5"
+			tasks: [{
+				id: "6A2AAC24B3B1AFD7"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["77EA7C5BDFCF10E3"]
+			id: "3E2D0AAE15B575BE"
+			tasks: [{
+				id: "3A0390A240D742AD"
+				item: "ars_nouveau:blue_archwood_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["77EA7C5BDFCF10E3"]
+			id: "721145C59D1000B0"
+			tasks: [{
+				id: "299837E702566E56"
+				item: "ars_nouveau:green_archwood_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1E80C71F4D670A50"]
+			id: "6665B7D0DB76005A"
+			tasks: [{
+				id: "6FABEC07DBC24318"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6665B7D0DB76005A"]
+			description: ["(Deepslate has more chance to turn into emerald)"]
+			id: "74DD56A6273CC86C"
+			tasks: [{
+				id: "39559C9BA22A3E50"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74DD56A6273CC86C"]
+			id: "3800E2E283FC8C26"
+			tasks: [{
+				id: "2856A42F23F4C514"
+				item: "ars_caelum:ritual_conjure_island_village"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74DD56A6273CC86C"]
+			id: "23197DB11B7687AD"
+			tasks: [{
+				id: "7E7669A2D70DEC93"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23197DB11B7687AD"]
+			id: "7E356A29CC79098D"
+			tasks: [{
+				id: "103D910ED147FBBA"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E356A29CC79098D"]
+			id: "5341AA3209E57408"
+			tasks: [{
+				id: "56BA6F70808A1924"
+				item: "ars_caelum:ritual_conjure_island_sculk"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6BB91843BC61ED7A"]
+			id: "137B27DAC622A507"
+			tasks: [{
+				id: "20FFAB525CB1BEB4"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4953B33F0638F275"]
+			id: "1CE1349EAC198635"
+			tasks: [{
+				id: "0650A0A49D97C220"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7083898D180DE37B"]
+			id: "61E09E226B1B6B33"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6B9FC2EC474B4807"
+				title: "Chapter 3"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5211BD77AEDDB6E5"]
+			id: "293BBB434E32C7C9"
+			tasks: [{
+				id: "2C6974D2DC91D66F"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["794AC839C91254B6"]
+			description: [""]
+			id: "6C350DEC89FBD48E"
+			tasks: [{
+				id: "2D7420CF37473F62"
+				item: "enderio:fire_water_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C350DEC89FBD48E"]
+			id: "3028E5462CBBFFA2"
+			tasks: [{
+				id: "74DE11D3AC767C2F"
+				item: "enderio:conduit_binder_composite"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3028E5462CBBFFA2"]
+			id: "152FDE56BFEDE70E"
+			tasks: [{
+				id: "1A7F85056FF421C6"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["540DD90DDC41A474"]
+			id: "363DCEFC4B8986DB"
+			tasks: [{
+				id: "3D6F25D2449AA0B2"
+				item: "electrodynamics:reinforcedalloyer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["363DCEFC4B8986DB"]
+			id: "041253EB93A584F2"
+			tasks: [{
+				id: "69EDDA9FEFC8146C"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"041253EB93A584F2"
+				"152FDE56BFEDE70E"
+			]
+			id: "04D81228B394DEAD"
+			tasks: [{
+				id: "14C1FD111AE35513"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["152FDE56BFEDE70E"]
+			id: "23547CAC3C0C861C"
+			tasks: [{
+				id: "4F7CB914E2A5F491"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["152FDE56BFEDE70E"]
+			id: "64EAEBAF6B72987B"
+			tasks: [{
+				id: "03CE8095F79F86E4"
+				item: "enderio:crafter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["152FDE56BFEDE70E"]
+			id: "0C1885DED41BC397"
+			tasks: [{
+				id: "3CC115B2A780019E"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04D81228B394DEAD"]
+			id: "48D62B82C7AB4007"
+			tasks: [{
+				id: "023014B046394A36"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04D81228B394DEAD"]
+			id: "0AF403D110AAACEA"
+			tasks: [{
+				id: "5F05872CAC119434"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04D81228B394DEAD"]
+			id: "30E48FD5C935B0B1"
+			tasks: [{
+				id: "1E92E5CA664303B9"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04D81228B394DEAD"]
+			id: "0CCB62F85D20AF64"
+			tasks: [{
+				id: "633A95045DDED91E"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30E48FD5C935B0B1"]
+			id: "524CFF7B13A2752A"
+			tasks: [{
+				id: "16342BE8BA4B78D1"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04D81228B394DEAD"]
+			id: "1F7D51CF7409C084"
+			tasks: [{
+				id: "613C21E236753BCF"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F7D51CF7409C084"]
+			id: "1E8BEAB7F82DCB6F"
+			tasks: [{
+				id: "5F751C6E90521CDF"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0CCB62F85D20AF64"]
+			id: "5105926B31612B37"
+			tasks: [{
+				id: "56749D926C864855"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["223184444696B0E6"]
+			id: "38AF03CAFB5E5D9E"
+			tasks: [{
+				id: "08728455FF6E7B55"
+				item: "integrateddynamics:coal_generator"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105926B31612B37"]
+			description: [
+				"You don't know where to find a spawner ?"
+				"In vanilla you can find spawner in spawner structure and in ... the strongold."
+				"Search in chapter 3"
+			]
+			id: "35C32A189D446437"
+			tasks: [{
+				id: "24E7DAB5331F89AF"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35C32A189D446437"]
+			description: [
+				"I recommand to farm warden and guardian minimum."
+				"Use mob crusher to get mob essence "
+			]
+			id: "20C829D1C8F7FF41"
+			tasks: [
+				{
+					id: "69E276E4DCCA10EA"
+					item: "industrialforegoing:mob_duplicator"
+					type: "item"
+				}
+				{
+					id: "004CFFF06FE477B0"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+				{
+					id: "58FFAFB0E6DD3455"
+					item: "industrialforegoing:mob_crusher"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5341AA3209E57408"]
+			id: "434F6639850BF2B2"
+			tasks: [{
+				id: "200FCCA920EF98EF"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3E2D0AAE15B575BE"]
+			id: "5D4B8523D4DA2195"
+			tasks: [{
+				id: "3A6BE273C0652985"
+				item: "ars_caelum:ritual_elder_summon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5D4B8523D4DA2195"]
+			id: "16A15ED2466B0AEC"
+			tasks: [{
+				id: "2470E46C818AED98"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4FC2EDA3C27FCDAB"]
+			id: "06EF441D93150A5B"
+			tasks: [{
+				id: "6562BC382070C681"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0053FE4700BD9905"]
+			id: "597210ECCF46C863"
+			tasks: [{
+				id: "3D1991A24F405B82"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["38BD48A5AF8B0227"]
+			id: "1C3A488362633780"
+			tasks: [{
+				id: "098F7EC951193089"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63DC3B6E0FB73D7B"]
+			description: ["First diorite need to be crafted with bone meal"]
+			id: "273C99ED365BE40F"
+			tasks: [{
+				id: "5AEBB0E41841184A"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4FC2EDA3C27FCDAB"]
+			id: "63DC3B6E0FB73D7B"
+			tasks: [{
+				id: "036DE045E2161260"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A339FACBBCA6B92"]
+			id: "056BF2323780A42F"
+			tasks: [{
+				id: "51FB511A5E870F5E"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"794AC839C91254B6"
+				"223184444696B0E6"
+			]
+			id: "2A339FACBBCA6B92"
+			tasks: [{
+				id: "5D691796392D5697"
+				item: "integrateddynamics:bucket_menril_resin"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["156859888A9B08E6"]
+			id: "4953B33F0638F275"
+			tasks: [{
+				id: "0DD6BAC554C4DE02"
+				item: "thermal:press_unpacking_die"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["35AEC48D330A455E"]
+			id: "7FAC1ACC0D3DBA1A"
+			tasks: [
+				{
+					id: "2828D9101C9C1B67"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "144FA677EE98F6F1"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"428DB20E09E5FF7D"
+				"5B8AF7384F810E45"
+			]
+			id: "1D8EC0362755D472"
+			tasks: [{
+				id: "591E8271AF760C79"
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0A6CBB4B7B8D4C02"]
+			id: "3F7BBF2248FD090F"
+			tasks: [{
+				id: "7B1FC86F09DC9502"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3F7BBF2248FD090F"]
+			id: "4A8598CCC191929C"
+			tasks: [{
+				id: "06BBC226118C40C3"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4A8598CCC191929C"]
+			id: "273A471D8F46E0DA"
+			tasks: [{
+				id: "3691DAB1020D81F0"
+				item: "thermal:latex_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["273A471D8F46E0DA"]
+			id: "384B63BA6F80FBD9"
+			tasks: [{
+				id: "0D6094E3545BADC5"
+				item: "thermal_extra:polyolefin_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1D8EC0362755D472"]
+			id: "4CF85DB8A637A35D"
+			tasks: [{
+				id: "0510E5B73265C245"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4CF85DB8A637A35D"]
+			id: "6C0A9C7727B7A9BD"
+			tasks: [{
+				id: "0C052668CC89BAC6"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5B8AF7384F810E45"]
+			id: "57B756184C008CBA"
+			tasks: [
+				{
+					count: 10L
+					id: "68CD8C6505E30B8E"
+					item: { Count: 10, id: "mob_grinding_utils:saw_upgrade_looting" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7D056366CA13692F"
+					item: { Count: 10, id: "mob_grinding_utils:saw_upgrade_sharpness" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3DCF52C2853DA840"]
+			id: "7E777DC7128BB2F2"
+			tasks: [{
+				id: "1524BBC8571E8F38"
+				item: "electrodynamics:lathe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["363DCEFC4B8986DB"]
+			description: [
+				"Infinite A (infinite network ?)"
+				"No loss"
+			]
+			id: "7625782A04F556C5"
+			tasks: [{
+				id: "6ED502D46FF3D186"
+				item: "electrodynamics:wiresuperconductive"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["06EF441D93150A5B"]
+			id: "2820A864E4DF519C"
+			tasks: [{
+				id: "52D9BBBDE911CD91"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["63DC3B6E0FB73D7B"]
+			id: "4F1E5271C73EDE23"
+			tasks: [{
+				id: "6E6C862F4543D971"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35AEC48D330A455E"]
+			description: [
+				"Flint in off hand, deepslate in main hand then shift left click on obsidian."
+				"You can make deepslate with the igneous extruder. "
+				"To get packed ice use botania (ice from snow in mana pool and snow from pure daisy)"
+			]
+			id: "0F5A70BCD925D293"
+			tasks: [{
+				id: "7DBF9564E2884D73"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E80C71F4D670A50"]
+			id: "16D3AE3C78143DF0"
+			tasks: [{
+				id: "1F8627975B7D7DE2"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1E80C71F4D670A50"]
+			id: "25385931BB9BF451"
+			tasks: [{
+				id: "38869074F4BC46DB"
+				item: "botania:elementium_block"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["25385931BB9BF451"]
+			id: "6E544363F474BEC2"
+			tasks: [{
+				id: "5CB9833397753C44"
+				item: "electrodynamics:orechromium"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6E544363F474BEC2"]
+			description: ["This craft is a loop, you can fully automated it"]
+			id: "1F2150F93113849A"
+			tasks: [{
+				id: "65EAE6E952847B10"
+				item: "electrodynamics:sheetplastic"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6665B7D0DB76005A"]
+			id: "11637DF2529E4C97"
+			tasks: [{
+				id: "5881F0B819EDD9F7"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["293BBB434E32C7C9"]
+			description: ["Press G to change mode"]
+			id: "32AC40D8A6A04748"
+			tasks: [{
+				id: "5D00432F72DFCE6E"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["524CFF7B13A2752A"]
+			description: ["DO NOT connect energy conduit with any electrodynamics's wire"]
+			id: "3235819B8E5E5B4F"
+			tasks: [{
+				id: "7FC2163BE2339838"
+				title: "Warning"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2820A864E4DF519C"]
+			description: ["You can now farm resources with seeds"]
+			id: "77CE6A60C0BCEB12"
+			tasks: [{
+				id: "0E246B2C64B9CBB4"
+				title: "Tips"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["384B63BA6F80FBD9"]
+			description: ["Use any type of tnt to multiply ore"]
+			id: "66917012E749C742"
+			tasks: [{
+				id: "1D1B88D777B4EDEE"
+				item: "thermal_extra:nitratic_igniter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3800E2E283FC8C26"]
+			id: "5CEC804E03BABE56"
+			tasks: [{
+				id: "300F3D9DA2C4E101"
+				item: "ars_nouveau:ritual_challenge"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CEC804E03BABE56"]
+			id: "2965A2B9773C222C"
+			tasks: [{
+				id: "52F50313A79FE9AB"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -1.5d
+		}
+	]
+	title: "Chapter 2: The expension"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Radiance alloy",
+    "colors": [
+      "b7b900",
+      "fafd72"
+    ],
+    "ingredient": {
+      "item": "mekanism_extras:alloy_radiance"
+    },
+    "inUltimateSingularity": true
+  }

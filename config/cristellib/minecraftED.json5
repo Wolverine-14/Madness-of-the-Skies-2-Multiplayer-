@@ -1,0 +1,76 @@
+/*
+    This config file makes it possible to switch off any Minecraft structure.
+    To disable a structure, simply set the value of that structure to "false".
+    To change the rarity of a structure category, use the other file in the folder.
+*/
+{
+	"igloos": {
+		"igloo": false
+	},
+	"desert_pyramids": {
+		"desert_pyramid": false
+	},
+	"end_cities": {
+		"end_city": false
+	},
+	"ocean_ruins": {
+		"ocean_ruin_cold": false,
+		"ocean_ruin_warm": false
+	},
+	"shipwrecks": {
+		"shipwreck": false,
+		"shipwreck_beached": false
+	},
+	"woodland_mansions": {
+		"mansion": false
+	},
+	"ancient_cities": {
+		"ancient_city": false
+	},
+	"buried_treasures": {
+		"buried_treasure": false
+	},
+	"villages": {
+		"village_plains": false,
+		"village_desert": false,
+		"village_savanna": false,
+		"village_snowy": false,
+		"village_taiga": false
+	},
+	"nether_complexes": {
+		"fortress": false,
+		"bastion_remnant": false
+	},
+	"ocean_monuments": {
+		"monument": false
+	},
+	"jungle_temples": {
+		"jungle_pyramid": false
+	},
+	"nether_fossils": {
+		"nether_fossil": false
+	},
+	"mineshafts": {
+		"mineshaft": false,
+		"mineshaft_mesa": false
+	},
+	"pillager_outposts": {
+		"pillager_outpost": false
+	},
+	"swamp_huts": {
+		"swamp_hut": false
+	},
+	"strongholds": {
+		"stronghold": false
+	},
+	"ruined_portals": {
+		"ruined_portal": false,
+		"ruined_portal_desert": false,
+		"ruined_portal_jungle": false,
+		"ruined_portal_swamp": false,
+		"ruined_portal_mountain": false,
+		"ruined_portal_ocean": false,
+		"ruined_portal_nether": false
+	}
+}
+

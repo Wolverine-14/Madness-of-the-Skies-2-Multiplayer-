@@ -1,0 +1,20 @@
+{
+    "name": "Antimatter Pellet",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "mekanism:antimatter_pellet"
+    },
+    "colors": {
+      "flower": "ff00ff",
+      "essence": "ff00ff",
+      "seeds": "ff00ff"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "glint": true
+  }
+  

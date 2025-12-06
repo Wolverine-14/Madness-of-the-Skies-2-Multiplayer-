@@ -1,0 +1,11 @@
+{
+    "name": "Dark steel",
+    "colors": [
+      "8f8f8f",
+      "2a2a2a"
+    ],
+    "ingredient": {
+      "item": "enderio:dark_steel_ingot"
+    },
+    "inUltimateSingularity": true
+  }

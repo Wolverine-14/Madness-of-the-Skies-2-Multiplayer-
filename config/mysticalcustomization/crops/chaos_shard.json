@@ -1,0 +1,20 @@
+{
+    "name": "Chaos Shard",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "draconicevolution:chaos_shard"
+    },
+    "colors": {
+      "flower": "000000",
+      "essence": "000000",
+      "seeds": "000000"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "glint": true
+  }
+  

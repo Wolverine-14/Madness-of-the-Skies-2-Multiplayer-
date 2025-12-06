@@ -1,0 +1,11 @@
+{
+    "name": "Shining alloy",
+    "colors": [
+      "fae1fa",
+      "793887"
+    ],
+    "ingredient": {
+      "item": "mekanism_extras:alloy_shining"
+    },
+    "inUltimateSingularity": true
+  }

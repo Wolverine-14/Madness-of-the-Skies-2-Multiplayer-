@@ -1,0 +1,13 @@
+name = "Extra Fuel"
+filename = "Extra-Fuel-Mod-v1.0+1.19.4-1.20.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea09148595c4d7f7f608cba2b1ce384d8beeee85"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5120441
+project-id = 976835

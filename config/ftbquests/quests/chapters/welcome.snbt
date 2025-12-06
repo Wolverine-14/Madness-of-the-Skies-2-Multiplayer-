@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "3063D6ECB8D55BE3"
+	images: [
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "integrateddynamics:block/mechanical_squeezer_x_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "avaritia:textures/ascension.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to my pack."
+				"Before we begin, you need to know some important information to save you from unnecessary research."
+				""
+				"There are two questlines. The first one is the main questline it will guide you throughout the entire modpack. The second one goes into more detail about each mod. Note: in this section, the chapters do not mix mods."
+				""
+				"Every quest with a gear shape warns you that you have just unlocked the next chapter but not necessarily that you can progress without finishing the previous one"
+			]
+			id: "7642412D34654EAE"
+			tasks: [{
+				id: "2D834FB83BFBAFE1"
+				title: "Informations"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7642412D34654EAE"]
+			description: [
+				"When you see a quest framed like this one, this means it's the first time the mod is being used."
+				""
+				"Therefore, you’ll know that from now on, you can make use of it in your adventure."
+			]
+			id: "043B84857D021241"
+			tasks: [{
+				id: "5B25162A5E7E0992"
+				title: "New mod"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7642412D34654EAE"]
+			description: ["When you see a quest framed like this one, this means I strongly recommend you check out the mod’s quests in the “More Information About Mod” category."]
+			id: "74F8241751F33DB7"
+			tasks: [{
+				id: "676470ACE2ACAEC6"
+				title: "More about mod"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7642412D34654EAE"]
+			description: ["You can create loops with many things in this pack, so make sure to set up every item you want to produce."]
+			id: "28579ECC2D39F5F8"
+			tasks: [{
+				id: "472A2F1E7A9EFCDB"
+				title: "Automation"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7642412D34654EAE"]
+			description: [
+				"If you’re not familiar with the mod Integrated Dynamics, I strongly recommend watching a tutorial on YouTube. "
+				""
+				"You CANNOT play without it in the early game. Don’t worry, it’s not hard to get the hang of!"
+			]
+			id: "27E765F4161CBAF7"
+			tasks: [{
+				id: "61B0595A34ADDF27"
+				title: "Integrated dynamics"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Welcome"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Amethyst",
+    "colors": [
+      "5a3f8e",
+      "fffdd6"
+    ],
+    "ingredient": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "inUltimateSingularity": true,
+    "materialCount": 1000
+  }

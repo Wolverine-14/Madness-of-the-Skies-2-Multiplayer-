@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_4"
+	group: "758631C161183294"
+	icon: "functionalstorage:creative_vending_upgrade"
+	id: "7B879383E91F1901"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7CF9C32552BED02A"]
+			id: "05442C65CF5EA7F4"
+			tasks: [{
+				id: "52082AB95E7574B8"
+				item: "extendedcrafting:ultimate_singularity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "380A1C3261ECEDA0"
+			tasks: [{
+				id: "23B07C91322F9162"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "325C0FCD06602B04"
+			tasks: [{
+				id: "31FA12355C312BB7"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			description: ["Craft first the empty creative energy cube (Draconic's recipe) then the full energy cube if you want to use it as an energy source"]
+			id: "702D7155A2CED49E"
+			tasks: [{
+				id: "1FD9C6AD24ED2CBC"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							componentConfig: {
+								config0: {
+									side0: 1
+									side1: 1
+									side2: 1
+									side3: 1
+									side4: 1
+									side5: 1
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"325C0FCD06602B04"
+				"702D7155A2CED49E"
+				"380A1C3261ECEDA0"
+			]
+			id: "4C95843F7BB4EC72"
+			tasks: [{
+				id: "4D09B5E22775D11F"
+				item: "kubejs:matb3_key"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			description: ["You will need 16 full mana pool to craft this item"]
+			id: "3CB084893876DA9F"
+			tasks: [{
+				id: "7E9E3316A986B406"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			description: ["You will need 16 full mana pool to craft this item"]
+			id: "1B87AFFF40E60D20"
+			tasks: [{
+				id: "4027CF000CEDD424"
+				item: "botanicalmachinery:mana_battery_creative"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "4C90A00777886B89"
+			tasks: [{
+				id: "2B15B771FAAF69A3"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3CB084893876DA9F"
+				"1B87AFFF40E60D20"
+				"4C90A00777886B89"
+			]
+			description: ["You will need 16 full mana pool to craft this item"]
+			id: "51CC74410A052BB9"
+			tasks: [{
+				id: "193453585792AF8B"
+				item: "kubejs:nacl_key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "5EE6CA9B7BDEE87D"
+			tasks: [{
+				id: "4ABE200BA2C0E160"
+				item: "refinedstorage:creative_controller"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "2AA4A0749B2A2C44"
+			tasks: [{
+				id: "3567D24C9A8CD3AE"
+				item: "refinedstorage:creative_storage_disk"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "1B39CECA679E68DC"
+			tasks: [{
+				id: "315F6B38CBCBACD4"
+				item: "refinedstorage:creative_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5EE6CA9B7BDEE87D"
+				"1B39CECA679E68DC"
+				"2AA4A0749B2A2C44"
+			]
+			id: "294D67BDCFFB6E2A"
+			tasks: [{
+				id: "1DD36D2C226997C6"
+				item: "kubejs:lody13_key"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "7B659278AC45C4D1"
+			tasks: [{
+				id: "0473BBC3F42B0A2D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									730513999
+									1319259851
+									-1167055519
+									911583717
+								]
+							}
+						}
+					}
+					id: "draconicevolution:creative_capacitor"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "343364DE456A65E1"
+			tasks: [{
+				id: "626A82DCB0F05FDA"
+				item: "electrodynamics:creativepowersource"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05442C65CF5EA7F4"]
+			id: "40742D1EEEF872C1"
+			tasks: [{
+				id: "1EB2FFDBCB390717"
+				item: "thermal:machine_efficiency_creative_augment"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"40742D1EEEF872C1"
+				"7B659278AC45C4D1"
+				"343364DE456A65E1"
+			]
+			id: "72FECAC77B94A75B"
+			tasks: [{
+				id: "483516477ADA00D8"
+				item: "kubejs:morsuk_key"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"05442C65CF5EA7F4"
+				"22AE650EBDD7061B"
+				"257C6711EF20F102"
+				"2FE5CF250A86A47B"
+				"2ED0D7E1C67354EC"
+			]
+			id: "5F38D87EDB0F9860"
+			tasks: [{
+				id: "5EBD0EB7CD177FF1"
+				item: "kubejs:morben"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "2FE5CF250A86A47B"
+			tasks: [{
+				id: "6B10CBA8AFA90B8C"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "257C6711EF20F102"
+			tasks: [{
+				id: "289BBAEF5EF03DB3"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Check on youtube how to beat the chaos guardian if you don't know."
+				"I know Chaos Shard and some draconic's items are invisible, it's a problem cause by electrodynamics ( already report to the dev ) and i can do nothing about it sorry"
+			]
+			id: "22AE650EBDD7061B"
+			tasks: [{
+				id: "1CEB47D8A2226FD8"
+				item: "draconicadditions:chaos_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "2ED0D7E1C67354EC"
+			tasks: [{
+				id: "0100CE5D59AC008E"
+				item: "extendedcrafting:nether_star_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"294D67BDCFFB6E2A"
+				"4C95843F7BB4EC72"
+				"72FECAC77B94A75B"
+				"51CC74410A052BB9"
+				"5F38D87EDB0F9860"
+			]
+			description: ["Infinite item"]
+			id: "2127624D8EF92BFC"
+			rewards: [{
+				id: "0A57DBE344930CB6"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 5.0d
+			tasks: [{
+				id: "6F549E98CCDBCD52"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			title: "Last quest"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "Chapter 4: The end"
+}

@@ -1,0 +1,13 @@
+name = "Dragon's Extra Slabs"
+filename = "extra_slabs-1.0.2-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc28f2f64710a7e2e27fb36da3d642120feedfc9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5882850
+project-id = 1133112

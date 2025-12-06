@@ -1,0 +1,565 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "botania_2"
+	group: "2BAFEAA6F82C275C"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "4153313F05C3D339"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["50CD2D74D676C18F"]
+			description: [
+				"Put water in before throwing the ingredient."
+				""
+				"To complet the craft add a seed"
+			]
+			id: "18B2A3DAC72713BD"
+			tasks: [{
+				id: "4A8103EFA34397DD"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D45DE4050ADE832"]
+			description: ["I recommand to get one of each mystical flower"]
+			id: "4860FB1FD7C419C4"
+			rewards: [{
+				id: "308620A14474D377"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73047082068FDE43"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4860FB1FD7C419C4"]
+			description: [
+				"You can duplicate petals."
+				""
+				"Place the petals to duplicate on grass and put bone meal on it."
+				"Use shears to break the tall flower."
+				""
+				"Tall flower gives you 2 petals, you just multiplie your petals"
+			]
+			id: "50CD2D74D676C18F"
+			tasks: [{
+				id: "03547CB604D6DDF4"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B2A3DAC72713BD"]
+			description: ["Turn things into other things"]
+			id: "0E17EA34D6B8BB3E"
+			tasks: [{
+				id: "45C0661CD3FB0454"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E17EA34D6B8BB3E"]
+			id: "19641BEBDD8EC65F"
+			tasks: [{
+				id: "2232E1805F5DD9A2"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E17EA34D6B8BB3E"]
+			id: "79373AE132B00D91"
+			tasks: [{
+				id: "4CB799BB1B5DB9F7"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79373AE132B00D91"]
+			description: ["Mana storage"]
+			id: "3B6CC9B9DF3C740D"
+			tasks: [{
+				id: "20A0BCC4BEA3BC48"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19641BEBDD8EC65F"]
+			description: ["Mana transfert"]
+			id: "24773BB729E86D8F"
+			tasks: [{
+				id: "51C0CF393B005579"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18B2A3DAC72713BD"]
+			description: ["Easiest source of mana, burn things and gives mana"]
+			id: "3F6B72DC7AE368F6"
+			tasks: [{
+				id: "181363B3006D69A2"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33D28C98BBB8BE69"]
+			description: [
+				"Sparks transfert mana faster than mana spreader"
+				""
+				"Place one on a mana pool and the other where you need a lot of mana."
+				"This transfert is not in one way so it will do nothing if you don't start a craft"
+			]
+			id: "5B470E766F29CEED"
+			tasks: [
+				{
+					id: "3B3DD52E9153A731"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					id: "72BA5793877F81DB"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24773BB729E86D8F"
+				"3B6CC9B9DF3C740D"
+			]
+			id: "2F0F78DF5F64C504"
+			tasks: [{
+				id: "5279732E8D485A8A"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F0F78DF5F64C504"]
+			id: "33D28C98BBB8BE69"
+			tasks: [
+				{
+					id: "4A53A071BD89AF02"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "202F2F24A62FD80A"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "419732F0D4E8F529"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "3FAE5D80D4BEC91C"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "56FB1AEBAE9BCFF3"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5B470E766F29CEED"
+				"0D334E61B5EE5F38"
+			]
+			description: [
+				"You need 500000 mana to craft a single terrasteel"
+				"The more mana pool gives mana, the faster the crafting is."
+			]
+			id: "03FD75B82686F205"
+			tasks: [{
+				id: "10249C2615A80A93"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3B6CC9B9DF3C740D"
+				"24773BB729E86D8F"
+			]
+			id: "0D334E61B5EE5F38"
+			tasks: [
+				{
+					id: "25A8F74A118DE1A1"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "7FF2533ED5D2D0EF"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "29F44022200DE82C"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03FD75B82686F205"]
+			description: ["Need 200000 mana to start and 1000 mana for each craft "]
+			id: "068D0E9D3D660960"
+			tasks: [
+				{
+					id: "723776EF15BBEB47"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6C5E4BBDCFD2F684"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "375571CCE6210864"
+					item: { Count: 3, id: "botania:glimmering_livingwood_log" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068D0E9D3D660960"]
+			id: "2FF35EA2A30E22D9"
+			tasks: [{
+				id: "7E34913D9E9C7D77"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FF35EA2A30E22D9"]
+			description: ["Consum mana to turn block (stone type) into ore"]
+			id: "61EA5B65E436F9AF"
+			tasks: [{
+				id: "5C8A18BB492D356A"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068D0E9D3D660960"]
+			id: "08AE7ED2045C32EC"
+			tasks: [{
+				id: "502D4AC11D83C472"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08AE7ED2045C32EC"]
+			id: "0F7CFDE7A9B72123"
+			tasks: [{
+				id: "2EDEAFC061E3748F"
+				item: "botanicalmachinery:mechanical_daisy"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08AE7ED2045C32EC"]
+			id: "0B44DA834BE08766"
+			tasks: [{
+				id: "76ED242C72109D97"
+				item: "botanicalmachinery:mechanical_apothecary"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["08AE7ED2045C32EC"]
+			id: "5AFBDE141F29EF1E"
+			tasks: [{
+				id: "730D5C146F54589E"
+				item: "botanicalmachinery:mechanical_brewery"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08AE7ED2045C32EC"]
+			id: "220F57D6A3A194E8"
+			tasks: [{
+				id: "7283A5A98A93917A"
+				item: "botanicalmachinery:mechanical_mana_pool"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["08AE7ED2045C32EC"]
+			id: "48C5F363F2E55845"
+			tasks: [{
+				id: "04D0320CF551213F"
+				item: "botanicalmachinery:mechanical_runic_altar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08AE7ED2045C32EC"]
+			id: "25819A967E720A1B"
+			tasks: [{
+				id: "51FFD6AE1E46BDC0"
+				item: "botanicalmachinery:alfheim_market"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08AE7ED2045C32EC"]
+			id: "46D32D18A9980CC6"
+			tasks: [{
+				id: "5032F769EF590E1F"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"08AE7ED2045C32EC"
+				"2FF35EA2A30E22D9"
+			]
+			description: [
+				"First boss,"
+				"To spawn it check how to place the ritual in the botania's guide book."
+				"Click with a terrasteel on the beacon"
+				"Be prepared "
+			]
+			id: "0F963FD4CFAAA47F"
+			tasks: [
+				{
+					count: 4L
+					id: "7789523FDA9E8091"
+					item: { Count: 4, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					id: "3542E001E259ECE9"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F963FD4CFAAA47F"]
+			id: "22E5F59D3F9E3974"
+			tasks: [{
+				id: "4FC19BBE8DB85D09"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22E5F59D3F9E3974"]
+			id: "342767B554A0E3B5"
+			tasks: [{
+				id: "490522F3190AE854"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["342767B554A0E3B5"]
+			description: [
+				"Way harder than the first one but gives more gaia spirit"
+				"Use a gaia spirit ingot on the beacon to start the fight"
+			]
+			id: "1DC3E7DAFEF555F6"
+			tasks: [{
+				id: "34E9A8BD51D3A99E"
+				title: "Gaia boss n°2"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["342767B554A0E3B5"]
+			id: "302DAACDC3784CD2"
+			tasks: [{
+				id: "0CE4C7FF5014CFFA"
+				item: "botanicalmachinery:mana_battery"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B6CC9B9DF3C740D"]
+			description: ["Alteration with mana"]
+			id: "5C39DF2EF9EA49BB"
+			tasks: [{
+				id: "2864062B705EC2C9"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B6CC9B9DF3C740D"]
+			description: ["Duplication with mana"]
+			id: "0A982FED9F6A0BFA"
+			tasks: [{
+				id: "4F29393FA2ED5348"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["479A11C93D0159D2"]
+			description: ["Faster mana spreader"]
+			id: "12606D1B0D6371EB"
+			tasks: [{
+				id: "72C08857B12A95F5"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22E5F59D3F9E3974"]
+			id: "5088838F7268BD2C"
+			tasks: [{
+				id: "57629C405B8F3D2E"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["068D0E9D3D660960"]
+			id: "479A11C93D0159D2"
+			tasks: [{
+				id: "7D90ACF17FC88236"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19641BEBDD8EC65F"]
+			id: "1B74023041B705BD"
+			tasks: [{
+				id: "38AA33DAA6F1E2C3"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F6B72DC7AE368F6"]
+			description: [
+				"You can convert mana from ars nouveau to mana from botania."
+				"Just place a mana spreader next to a mana jar"
+				"You gain around 4 times more mana with a volcanic sourcelink with the same burning material"
+				""
+				"WARNING : Don't put a mana pool close to ars nouveau's \"machines\", they will try to take mana in mana pool but it don't work"
+			]
+			id: "7775BF231941A240"
+			size: 2.0d
+			tasks: [{
+				id: "469604CB2A239B41"
+				title: "Mana production"
+				type: "checkmark"
+			}]
+			title: "Mana production info"
+			x: -5.0d
+			y: -3.5d
+		}
+	]
+	title: "Botania"
+}

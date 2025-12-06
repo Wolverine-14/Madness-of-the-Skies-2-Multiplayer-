@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "enderio"
+	group: "2BAFEAA6F82C275C"
+	icon: "enderio:grains_of_infinity"
+	id: "50627CB67AC96C74"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A1C6A490CE67CF2"]
+			description: ["There is no real automation for this but you won't need that much before reaching mystical agriculture"]
+			id: "1C8F27B133165DBF"
+			tasks: [{
+				id: "2E74D24D43BE06BB"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1C8F27B133165DBF"
+				"794AC839C91254B6"
+			]
+			id: "53BD2A216FA7D690"
+			tasks: [{
+				id: "7BBCC1A798CF5903"
+				item: "enderio:fire_water_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"53BD2A216FA7D690"
+				"70BF7924860550CA"
+			]
+			id: "7B83F595CD1C3FA6"
+			tasks: [{
+				id: "393AA4FB3F43A015"
+				item: "enderio:conduit_binder_composite"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B83F595CD1C3FA6"]
+			description: [
+				"Each ender io's machine need a capacitor to work."
+				"Higher tier = Higher speed"
+			]
+			id: "1A6CC7BDFAC672DD"
+			tasks: [{
+				id: "08D1ED22BCA7EC5F"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["041253EB93A584F2"]
+			id: "5623CCF9873EDB96"
+			tasks: [{
+				id: "015AA9AE1B211D26"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5623CCF9873EDB96"
+				"1A6CC7BDFAC672DD"
+			]
+			id: "5CE5BB09A20203E9"
+			tasks: [{
+				id: "640F13D0F0846D91"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1A6CC7BDFAC672DD"
+				"5623CCF9873EDB96"
+			]
+			id: "71C11E78B4EF0F26"
+			tasks: [{
+				id: "573395178DD05AA0"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1A6CC7BDFAC672DD"
+				"5623CCF9873EDB96"
+			]
+			id: "507F18FF2CE28F8E"
+			tasks: [{
+				id: "6972783AA35CA28B"
+				item: "enderio:crafter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1A6CC7BDFAC672DD"
+				"5623CCF9873EDB96"
+			]
+			id: "1C01EBFD458A8A02"
+			tasks: [{
+				id: "306FD1E802D88242"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71C11E78B4EF0F26"]
+			id: "7CC2AEA5482DA90D"
+			tasks: [{
+				id: "7D3F576C82961814"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71C11E78B4EF0F26"]
+			id: "40E0B68A3DD093E1"
+			tasks: [{
+				id: "2060DB4BE7A52424"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71C11E78B4EF0F26"]
+			id: "2AF4C9DE63BDB747"
+			tasks: [{
+				id: "42557B8C9017042B"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71C11E78B4EF0F26"]
+			id: "2F8ABA0751CC4008"
+			tasks: [{
+				id: "551B7E5A1296AE7E"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F8ABA0751CC4008"]
+			id: "18296103FA5E153C"
+			tasks: [{
+				id: "40457CFF267DBE5B"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CC2AEA5482DA90D"]
+			id: "493D21E6B1C401AD"
+			tasks: [{
+				id: "58E60438499A804A"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AF4C9DE63BDB747"]
+			id: "278489131BAA4EAF"
+			tasks: [{
+				id: "7F52459E1852A65C"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["40E0B68A3DD093E1"]
+			id: "171D11CD9A0BB765"
+			tasks: [{
+				id: "3E224FC7808A167D"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["171D11CD9A0BB765"]
+			id: "47E5DB5A4A24C9E6"
+			tasks: [{
+				id: "70A10D6F1A0CDB1A"
+				item: "enderio:extraction_speed_upgrade_1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47E5DB5A4A24C9E6"]
+			id: "62753FFAF8AF0BDD"
+			tasks: [{
+				id: "0801606662072E47"
+				item: "enderio:extraction_speed_upgrade_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["62753FFAF8AF0BDD"]
+			id: "5AC681484B7985E7"
+			tasks: [{
+				id: "3EB3B0040506486B"
+				item: "enderio:extraction_speed_upgrade_3"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5AC681484B7985E7"]
+			id: "510B62A88B2222CE"
+			tasks: [{
+				id: "30A53A66149F1495"
+				item: "enderio:extraction_speed_upgrade_4"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["71C11E78B4EF0F26"]
+			id: "18D12A6FF897FA4A"
+			tasks: [{
+				id: "5FCBA05065E9076A"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"18D12A6FF897FA4A"
+				"18296103FA5E153C"
+			]
+			description: ["I recommand to not use this spawner, industrial forgoing is better for that"]
+			id: "4558F22335F0F474"
+			tasks: [{
+				id: "12D8252A934DC0A7"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+	]
+	title: "EnderIO"
+}

@@ -1,0 +1,265 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blabla"
+	group: "758631C161183294"
+	icon: "assemblyline:conveyorbelt"
+	id: "309CED935F95AC19"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 7.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 7.0d
+			x: 7.0d
+			y: -5.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61DB69CB90164632"]
+			id: "5AE581E79F0FD2D8"
+			tasks: [{
+				id: "5A2F5353D1A33FB5"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AE581E79F0FD2D8"]
+			id: "5F42E28DF704BAEC"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3948D53977E31770"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02170592A11D73D3"]
+			id: "59ECC26DD305CE77"
+			tasks: [{
+				id: "0E0CAD100E09F6AC"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59ECC26DD305CE77"
+				"1248045530690DD6"
+			]
+			description: ["You will need a lot of this"]
+			id: "43980288A13386C6"
+			tasks: [{
+				id: "79835B5C6980ED30"
+				item: "electrodynamics:insulation"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50CEF2870ECA0673"]
+			id: "1248045530690DD6"
+			tasks: [{
+				id: "617AFB91533A6F22"
+				item: "electrodynamics:wirecopper"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"43980288A13386C6"
+				"5AE5ABE8276C0847"
+				"2F665659D3B765F1"
+				"73BD06279F9083AE"
+				"4C46ED4F81FB69FB"
+				"456580393CE002B3"
+			]
+			description: ["To complete this quest you will need 93 iron ingots (+3 if you don't have a bucket yet) and 66 copper ingots"]
+			icon: "electrodynamics:energizedalloyer"
+			id: "717988C2CC17BC2D"
+			tasks: [
+				{
+					count: 2L
+					id: "07E8CF72DCD2ED15"
+					item: { Count: 2, id: "electrodynamics:windmill" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B87D5F26744E766"
+					item: { Count: 2, id: "electrodynamics:upgradetransformer" }
+					type: "item"
+				}
+				{
+					id: "0DAC8C764CEFF0A8"
+					item: "electrodynamics:energizedalloyer"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "252895D345973FA5"
+					item: { Count: 3, id: "electrodynamics:wireinsulatedcopperblack" }
+					type: "item"
+				}
+			]
+			title: "Steel production"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["717988C2CC17BC2D"]
+			id: "1E7BD3580DE0742B"
+			tasks: [{
+				id: "1D00037E39F38068"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DAC1ECA96E384F1"]
+			description: [""]
+			id: "18F9949D2221B4D4"
+			tasks: [{
+				id: "2CC594F2582F0ECC"
+				item: "electrodynamics:mineralgrinder"
+				type: "item"
+			}]
+			title: "Ore x4"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F9949D2221B4D4"]
+			description: [""]
+			id: "7EFD60BF3C2B424F"
+			tasks: [{
+				id: "25741AB222B654AD"
+				item: "electrodynamics:electricfurnace"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E7BD3580DE0742B"]
+			description: ["You only need to power one belt to activate all the others connected to it."]
+			id: "0F4035A3178C5567"
+			tasks: [{
+				id: "4B67E0135098218A"
+				item: "assemblyline:conveyorbelt"
+				type: "item"
+			}]
+			title: "Moving items"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F42E28DF704BAEC"]
+			id: "02170592A11D73D3"
+			tasks: [{
+				id: "583990C1BB7D3A23"
+				item: "thermal:flax_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61DB69CB90164632"]
+			description: ["Use charcoal in the blastfurnace to make coal coke"]
+			icon: "minecraft:blast_furnace"
+			id: "5AE5ABE8276C0847"
+			tasks: [
+				{
+					id: "597DDFE3CDEC6CBC"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "0164B568C9D047D9"
+					item: "electrodynamics:coalcoke"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E7BD3580DE0742B"]
+			description: [
+				"You can start botania to use petals as dyes."
+				""
+				"&lSolar panel&r need 11 iron ingots, 14 copper ingots and 4 steel ingots."
+				"&lAdvanced solar&r panel need 36 iron ingots, 42 copper ingots and 16 steel ingots."
+				"&lDowngrade transformer&r need 4 iron ingots, 10 copper ingots and 3 steel ingots."
+				""
+				"To summarize for this quest you need 35 steel ingots, 94 copper ingots and 76 iron ingots (100 if you count the iron ingots for steel)"
+			]
+			icon: "electrodynamics:advancedsolarpanel"
+			id: "0DAC1ECA96E384F1"
+			tasks: [
+				{
+					count: 2L
+					id: "39DA98BCBF3B34C3"
+					item: "electrodynamics:advancedsolarpanel"
+					type: "item"
+				}
+				{
+					id: "27522C3F8D1EEA4B"
+					item: "electrodynamics:downgradetransformer"
+					type: "item"
+				}
+			]
+			title: "More power"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61DB69CB90164632"]
+			description: ["Check electrodynamics's quest to learn more about voltage and power before to start using the mod"]
+			id: "2F665659D3B765F1"
+			shape: "pentagon"
+			size: 5.0d
+			tasks: [{
+				id: "05AF25016F2F3BBD"
+				title: "WARNING"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+	]
+	title: "Chapter 1.5 :The first loop"
+}

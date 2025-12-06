@@ -1,0 +1,555 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "ars_nouveau"
+	group: "2BAFEAA6F82C275C"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "454ACB4AF1D5F385"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["24515824455D8347"]
+			description: [
+				"Place your cursor on a tablet and shift to see more information,"
+				"like size and effect"
+			]
+			id: "4BDE21E2C8D3A917"
+			tasks: [{
+				id: "3DD177FE15CB784D"
+				item: "ars_caelum:ritual_conjure_island_starter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BDE21E2C8D3A917"]
+			description: ["To learn a spell just click with the glyph in hand"]
+			id: "3AC1FCA59529EDC5"
+			tasks: [{
+				id: "5F3AA0E6021552A1"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2250A2437C325EC4"
+				"258EAE606D2D05BB"
+			]
+			description: [
+				"Volcanic sourcelink produce more mana if you use blazing archwood as fuel"
+				""
+				"You can automate it with a little bit of imagination"
+			]
+			id: "190221C773D9399E"
+			tasks: [
+				{
+					id: "5CE4286187C5AD5D"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "22B62BB63A8119FA"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["190221C773D9399E"]
+			description: [
+				"You can place pedestals next to it."
+				""
+				"All items on these pedestals are not consumed"
+				""
+				"You need to have jar next to it for every craft"
+			]
+			id: "70EC9FBCAD4DEA66"
+			tasks: [{
+				id: "7D9CA2C14C503A46"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70EC9FBCAD4DEA66"]
+			description: [
+				"Source gem is a key ingredient, you will need a lot."
+				"( Find a way to automate it )"
+			]
+			id: "0288729B1B07EEF2"
+			tasks: [{
+				id: "7D52710AF7F5D696"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0288729B1B07EEF2"]
+			id: "270ED95670C0636A"
+			tasks: [{
+				id: "7D43E053A08B1D40"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["270ED95670C0636A"]
+			description: ["You know this one, it's your first friend"]
+			id: "426F19E385A875F7"
+			tasks: [{
+				id: "16C7E542DE04FF46"
+				item: "ars_nouveau:blue_archwood_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["270ED95670C0636A"]
+			description: ["This one is useful to produce mana"]
+			id: "6A091C6594318967"
+			tasks: [{
+				id: "1CA9CA99656B83F9"
+				item: "ars_nouveau:red_archwood_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["270ED95670C0636A"]
+			description: ["Vexing wood is use to make a lot of tablet"]
+			id: "6370829B0F97EBE4"
+			tasks: [{
+				id: "25CAF57718706760"
+				item: "ars_nouveau:purple_archwood_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["270ED95670C0636A"]
+			description: ["This one is linked to everything that touches nature"]
+			id: "1C82005D9AA8FA46"
+			tasks: [{
+				id: "1D56E6AD005A98E0"
+				item: "ars_nouveau:green_archwood_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["270ED95670C0636A"]
+			id: "1281D98008EA28AC"
+			tasks: [{
+				id: "2DACF879F200A94E"
+				item: {
+					Count: 1
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["426F19E385A875F7"]
+			id: "143BEDB2AF7FEAA7"
+			tasks: [{
+				id: "5000DF2FB7E2E8C5"
+				item: "ars_caelum:ritual_conjure_island_cascading"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A091C6594318967"]
+			id: "51E8FBDC3CC89B88"
+			tasks: [{
+				id: "420FEFE7C496F246"
+				item: "ars_caelum:ritual_conjure_island_blazing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6370829B0F97EBE4"]
+			id: "75F4BA5EF131C85C"
+			tasks: [{
+				id: "6733CD6DD99546B3"
+				item: "ars_caelum:ritual_conjure_island_vexing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C82005D9AA8FA46"]
+			id: "5E7BDA1AC1F8AAEA"
+			tasks: [{
+				id: "2C47007EEF34931F"
+				item: "ars_caelum:ritual_conjure_island_flourishing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1281D98008EA28AC"]
+			description: ["Try to move the brazier between biome to obtain different passive mobs"]
+			id: "7213A9A258515314"
+			tasks: [{
+				id: "4941CD1A96983B12"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0288729B1B07EEF2"]
+			id: "1000FCB74D3FD4B4"
+			tasks: [{
+				id: "002B8C3860E4F2EB"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1000FCB74D3FD4B4"]
+			description: ["Arcane core need to be place under the enchanting apparatus"]
+			id: "331B77CE79665FEF"
+			tasks: [
+				{
+					id: "4A01A9A2547E7E8C"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "26F32D7BFD1862F1"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "7013239959732EC5"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51E8FBDC3CC89B88"]
+			id: "065446A000E355C6"
+			tasks: [{
+				id: "5DC117D7ED45B67F"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E7BDA1AC1F8AAEA"]
+			id: "77FF8D34F95F18BD"
+			tasks: [{
+				id: "1A72D3B9306EB74E"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E7BDA1AC1F8AAEA"]
+			id: "287B2D0F4FC348F6"
+			tasks: [{
+				id: "2F7E67504E696402"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["143BEDB2AF7FEAA7"]
+			id: "5A817EEF02ACCBDD"
+			tasks: [{
+				id: "7AFA177EA000A6DA"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75F4BA5EF131C85C"]
+			id: "79FE29F237D747D7"
+			tasks: [
+				{
+					id: "20AA55966130073A"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "049E076926F9B870"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["331B77CE79665FEF"]
+			id: "7CF2EEA420D7707F"
+			tasks: [{
+				id: "3F097BF401B3F62C"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CF2EEA420D7707F"]
+			id: "783EB315142D271B"
+			tasks: [{
+				id: "2C72E7D9AB4AFDF4"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7213A9A258515314"]
+			description: ["Starbuncle spawn on cascading island biome with a tablet of summon animals"]
+			id: "61B8EF58E91BD77A"
+			tasks: [{
+				id: "0F990473CAAC39B9"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7213A9A258515314"]
+			id: "3CFBE13D1383344F"
+			tasks: [{
+				id: "1CA71C123CD951C7"
+				item: "ars_nouveau:whirlisprig_shards"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7213A9A258515314"]
+			id: "0A544C615E581A0D"
+			tasks: [{
+				id: "224A932C7197B665"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"61B8EF58E91BD77A"
+				"1B97811243721906"
+			]
+			id: "0EB8D0EE24E02D48"
+			tasks: [{
+				id: "2A83434AF6266EF4"
+				item: "ars_nouveau:conjuration_essence"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0EB8D0EE24E02D48"
+				"344B0D45E1E55373"
+			]
+			id: "06ED62CE86C4B118"
+			tasks: [{
+				id: "35BCD6F37B0EC2D2"
+				item: "minecraft:turtle_egg"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7213A9A258515314"]
+			id: "344B0D45E1E55373"
+			tasks: [{
+				id: "2252D89609660F42"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75F4BA5EF131C85C"]
+			description: ["Read tablet description"]
+			id: "3166B9672D7D3B9D"
+			tasks: [{
+				id: "5352014F423F97A4"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3166B9672D7D3B9D"]
+			description: [
+				"To spawn the Wilden chimera you need to augment the ritual with wilden spik, horn and wing."
+				""
+				"These items can be obtain by using the ritual without augment first. It will spawn all the mob you need ( I recommand to use a mob masher with luck upgrade to get more loots )"
+				""
+				"The Wilden chimera is not that hard but has 1000HP so be prepared"
+			]
+			id: "38392F67844DC221"
+			tasks: [{
+				id: "718D55D004DBCE39"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["38392F67844DC221"]
+			description: [
+				"Spawn an island where your steps can lead you to the death."
+				""
+				"Beware the Warden"
+			]
+			id: "26B0598CAD044C7A"
+			tasks: [{
+				id: "67BA5541C0F14705"
+				item: "ars_caelum:ritual_conjure_island_sculk"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38392F67844DC221"]
+			description: ["Spawn a vanilla strongold"]
+			id: "347592DDE8F83783"
+			tasks: [{
+				id: "1C4A72F5971D8B82"
+				item: "ars_caelum:ritual_conjure_island_end_portal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38392F67844DC221"]
+			id: "4459E4BF052B3544"
+			tasks: [{
+				id: "262E4B7CC56D2F2F"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1000FCB74D3FD4B4"]
+			description: ["You already know how it works."]
+			id: "3AE1206B64F03620"
+			tasks: [{
+				id: "1FC55A5DE102B7F0"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3AC1FCA59529EDC5"]
+			description: [
+				"To use a spell you need to crate it"
+				"Open your book with C (default key ), select \"touch\" and \"conjure water\""
+				"Then create and boom, you create your first spell"
+				""
+				"To use it just take your book in hand and click"
+			]
+			icon: "ars_nouveau:glyph_conjure_water"
+			id: "4FF4C9D1E7FC3FA0"
+			tasks: [{
+				id: "0A32707334ED8D80"
+				title: "Conjure of water"
+				type: "checkmark"
+			}]
+			title: "Conjure Water"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FF4C9D1E7FC3FA0"]
+			description: [
+				"Now you need a second spell but we don't want to erase the first one."
+				"On the right you have number, select number 2 to save the new spell here."
+				""
+				"Same as the first select touch but this time choose crush then create."
+				""
+				"To change spell use the key V ( default key )"
+			]
+			icon: "ars_nouveau:glyph_crush"
+			id: "258EAE606D2D05BB"
+			tasks: [{
+				id: "2C452831A9A632EF"
+				title: "Crush"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3166B9672D7D3B9D"]
+			id: "1B97811243721906"
+			tasks: [{
+				id: "03BAE812F0AEF500"
+				item: "ars_nouveau:wilden_horn"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+	]
+	title: "Ars Nouveau"
+}

@@ -1,0 +1,997 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "758631C161183294"
+	icon: "powah:energizing_orb"
+	id: "1032F8CBADE278A2"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61E09E226B1B6B33"]
+			id: "09580857C702D34D"
+			tasks: [{
+				id: "7CFFB4B65B7205ED"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09580857C702D34D"]
+			id: "0F80811051A29181"
+			tasks: [{
+				id: "4ADF3307A0B02E65"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09580857C702D34D"]
+			id: "1761C50C32071F7E"
+			tasks: [{
+				id: "15CCB9FA57CD1964"
+				item: "powah:ender_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1761C50C32071F7E"
+				"7E356A29CC79098D"
+			]
+			description: [
+				"You can mine the spawner with silk touch"
+				"Tips : If you don't move your brazier you can use a new tablet to spawn a new spawner"
+			]
+			id: "2AB7F21613F117E1"
+			tasks: [{
+				id: "4BB7A8DAB637B2C4"
+				item: "ars_caelum:ritual_conjure_island_end_portal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"09580857C702D34D"
+				"137B27DAC622A507"
+			]
+			id: "6F8129D771F14794"
+			tasks: [{
+				id: "42B9D53FDFABCEB8"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09580857C702D34D"]
+			id: "52B4B48B86310896"
+			tasks: [{
+				id: "18384CB48FFBED65"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09580857C702D34D"]
+			id: "7F93AB7ABD4FD1BF"
+			tasks: [{
+				id: "2F842368041701D1"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09580857C702D34D"]
+			id: "5C7AEDF09F5C0BDF"
+			tasks: [{
+				id: "336222E461C9E401"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"09580857C702D34D"
+				"74DD56A6273CC86C"
+			]
+			id: "58CC389254B52C02"
+			tasks: [{
+				id: "0531746EE6DB19C5"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09580857C702D34D"]
+			id: "27EE15985D646E16"
+			tasks: [{
+				id: "283D18CAC9182DD2"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"52B4B48B86310896"
+				"293BBB434E32C7C9"
+			]
+			id: "5E5860AF343CD556"
+			tasks: [{
+				id: "4A5E96F24D9D031E"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6F8129D771F14794"
+				"5E5860AF343CD556"
+			]
+			id: "4F96FBB785868EE4"
+			tasks: [{
+				id: "5F9EB7ABC64EE87E"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F8129D771F14794"]
+			id: "1002F84F32605C69"
+			tasks: [{
+				id: "6E021B9425FC753B"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F8129D771F14794"]
+			id: "700D0E16669F9015"
+			tasks: [{
+				id: "234D3063328BC359"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F8129D771F14794"]
+			id: "44E9E10C966B3B7A"
+			tasks: [{
+				id: "589E457FB756C07A"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F96FBB785868EE4"]
+			id: "2119929E1529A6D0"
+			tasks: [{
+				id: "3B705E37D054C0F9"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2119929E1529A6D0"]
+			id: "27E870A248A6D2D6"
+			tasks: [{
+				id: "673951EE5F570313"
+				item: "minecraft:wither_skeleton_spawn_egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27E870A248A6D2D6"]
+			id: "581A5ED0A0D0AB6F"
+			tasks: [{
+				id: "7DECC45DE1771105"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["581A5ED0A0D0AB6F"]
+			id: "4B9ED1A6344BD188"
+			tasks: [{
+				id: "247B49B228C442F4"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2119929E1529A6D0"
+				"4B9ED1A6344BD188"
+			]
+			id: "3D2072FA60334086"
+			tasks: [{
+				id: "031C600F2CB6F0DD"
+				item: "minecraft:ghast_spawn_egg"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AB7F21613F117E1"]
+			id: "43A986EB3DB03B92"
+			tasks: [{
+				id: "01DBDD2FD85959A8"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AB7F21613F117E1"]
+			id: "0D72748B72A350E3"
+			tasks: [{
+				id: "14625BAF5B368A16"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AB7F21613F117E1"]
+			id: "6CA3AD94359AD7B9"
+			tasks: [{
+				id: "7C1AAC652AB0E83D"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27EE15985D646E16"]
+			id: "0D037EFA330F5592"
+			tasks: [{
+				id: "25400E0ECCFA1DF4"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43A986EB3DB03B92"]
+			id: "3646BE7547CC6F20"
+			tasks: [{
+				id: "550358019CB9F0D2"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3646BE7547CC6F20"]
+			id: "0E63B9438B95A088"
+			tasks: [{
+				id: "302222809F829D69"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E63B9438B95A088"]
+			id: "44D245F1D0110501"
+			tasks: [{
+				id: "3E0B1AD824B7778A"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44D245F1D0110501"]
+			id: "02A41E1209C06BEC"
+			tasks: [{
+				id: "1859921B1BFC95DB"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"44D245F1D0110501"
+				"0D037EFA330F5592"
+			]
+			id: "2913814A3E95CBDE"
+			tasks: [{
+				id: "4E337DAA3B8A28BB"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C7AEDF09F5C0BDF"]
+			id: "2115F4D35A1FD200"
+			tasks: [{
+				id: "3ADAE0E6DB9F3DF7"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E5860AF343CD556"]
+			description: [
+				"Minimum 3 blocks height"
+				"Maximum 18 blocks height"
+			]
+			id: "7D99C37638952114"
+			tasks: [
+				{
+					id: "6C124E3583BCEEE9"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "154391AA6EAA7CCC"
+					item: { Count: 3, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					id: "4616449DA3B3DF1E"
+					item: { Count: 24, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7D99C37638952114"]
+			id: "48089CCCF4559F10"
+			tasks: [{
+				id: "0C6CFB7ADDA8D026"
+				item: "mekanism:brine_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4F96FBB785868EE4"]
+			description: ["I recommand to make a serious setup"]
+			id: "68AAB2545E0014CF"
+			tasks: [
+				{
+					id: "32A7C9C31B9BB607"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "50F71B51A4C06ECD"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "3C5B1D26094DE29B"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "5775B909B87C54D5"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48089CCCF4559F10"]
+			id: "689C7E21A18491D0"
+			tasks: [{
+				id: "13A24D5530D48C12"
+				item: "mekanism:sodium_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5E5860AF343CD556"
+				"7F93AB7ABD4FD1BF"
+			]
+			id: "26FCEAE4A66C562D"
+			tasks: [
+				{
+					id: "565E00EB575A7FDD"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+				{
+					id: "5FF4FC0B990476E5"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					id: "0FE348E85A4E8009"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "37FA04765BF04683"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A4146BD08512CC3"]
+			description: ["You will soon need to make a lot of this thing, be ready"]
+			id: "11403DDA1C52BC5E"
+			tasks: [{
+				id: "6F290892989FA522"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["68AAB2545E0014CF"]
+			id: "73CADCEABFC1C202"
+			tasks: [{
+				id: "240C123DFB972D6A"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68AAB2545E0014CF"]
+			id: "2C02AF0081C07142"
+			tasks: [{
+				id: "42FB3C93E03248A3"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"73CADCEABFC1C202"
+				"2C02AF0081C07142"
+			]
+			id: "5EC2B749BF067085"
+			tasks: [
+				{
+					id: "164701DCDCB55044"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "160ED2BC59F7DC25"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "5EA85AE56CC0A8D8"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "3D8E28B048CAE587"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73CADCEABFC1C202"]
+			id: "09DF87CD43926F6D"
+			tasks: [{
+				id: "4AB1CBD8F1996B86"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5EC2B749BF067085"]
+			id: "57A8C36C192FF6C3"
+			tasks: [{
+				id: "4494BA1E9904F942"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09DF87CD43926F6D"]
+			id: "4AAA907B3B02D0B5"
+			tasks: [{
+				id: "17B17EFB44143932"
+				item: "extendedcrafting:frame"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4AAA907B3B02D0B5"]
+			id: "2BC5DE32B92ABD02"
+			tasks: [{
+				id: "66C8040F6B041DFA"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09DF87CD43926F6D"]
+			id: "6E23E2CF2884B504"
+			tasks: [{
+				id: "326189A30572CE7F"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"6E23E2CF2884B504"
+				"2BC5DE32B92ABD02"
+			]
+			id: "07FB72252E81D683"
+			tasks: [{
+				id: "421EFF316F197C73"
+				item: "extendedcrafting:ultimate_singularity"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2C02AF0081C07142"]
+			id: "7FEEE8CFC7CD5AF6"
+			tasks: [
+				{
+					id: "2442412B0BF9737B"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "16F2BC58612B9CE4"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "4227F1678300DCF7"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "67EBC2253C55102D"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "78E8DC139AE21196"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57A8C36C192FF6C3"]
+			id: "32A1B1422D5AAB92"
+			tasks: [{
+				id: "226E18AF644FA86F"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07FB72252E81D683"]
+			id: "7CF9C32552BED02A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3DBFB17BD9617BC9"
+				title: "Chapter 4"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6E23E2CF2884B504"]
+			id: "6F720CCF5FA54F3D"
+			tasks: [{
+				id: "799E67A64A08E8EB"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6F720CCF5FA54F3D"]
+			id: "702C4EC61A402F8A"
+			tasks: [{
+				id: "5BE4D44568309B83"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["58CC389254B52C02"]
+			id: "454C6E5998BFFC13"
+			tasks: [{
+				id: "7C40CC64B2AC996A"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["454C6E5998BFFC13"]
+			id: "213CF3260EE00D89"
+			tasks: [{
+				id: "76DF7E63589BAB1A"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["213CF3260EE00D89"]
+			id: "4CD46F8C29301B42"
+			tasks: [{
+				id: "72E6E069C9A499D1"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4CD46F8C29301B42"]
+			id: "32CBDA606D4CA957"
+			tasks: [{
+				id: "47D101F9AC2CB523"
+				item: "avaritia:neutronium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0E63B9438B95A088"]
+			id: "06B52DCE0B19DC81"
+			tasks: [{
+				id: "49E4D57F52D88989"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-2114551232
+									163465669
+									-1795862382
+									1319913683
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44D245F1D0110501"]
+			id: "29BAA472BD100670"
+			tasks: [{
+				id: "40C34575494FB550"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-54250125
+									1587104047
+									-1502112678
+									932963627
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["02A41E1209C06BEC"]
+			id: "720DF2D3F336E178"
+			tasks: [{
+				id: "63D4EA0C32A49FEA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									2609685
+									998326866
+									-1422474931
+									-279957944
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"702C4EC61A402F8A"
+				"32CBDA606D4CA957"
+			]
+			description: ["I strongly recommand to craft infinity tools and armor to beat the chaos guardian"]
+			id: "7250E0B393036F3A"
+			tasks: [
+				{
+					id: "6CCCE6A8E261CA76"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246A884E1DA1C518"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3310D9D03D63AA74"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BC7D419FEC6C393"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0178D5EA44F01F83"
+					item: {
+						Count: 1
+						id: "avaritia:swordofthe_cosmos"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7698BA2C4F1BCA12"
+					item: {
+						Count: 1
+						id: "avaritia:longbowofthe_heavens"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["689C7E21A18491D0"]
+			id: "5A4146BD08512CC3"
+			tasks: [{
+				id: "41A6E8FB1B2919D7"
+				item: "mekanism:superheated_sodium_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6CA3AD94359AD7B9"]
+			description: [
+				"Check on youtube how to beat the chaos guardian if you don't know."
+				"I know Chaos Shard and some draconic's items are invisible, it's a problem cause by electrodynamics ( already report to the dev ) and i can do nothing about it sorry"
+			]
+			id: "7201D75AA4E4515B"
+			tasks: [
+				{
+					id: "085DFD7DC5831B03"
+					item: "draconicevolution:large_chaos_frag"
+					type: "item"
+				}
+				{
+					id: "1C556B5AB4EDC293"
+					item: "draconicadditions:chaos_heart"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2119929E1529A6D0"]
+			id: "40590B2C11BB3EA2"
+			tasks: [{
+				id: "57BBE832DF8229F2"
+				item: "minecraft:shulker_spawn_egg"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+	]
+	title: "Chapter 3: Mooooooore"
+}

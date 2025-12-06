@@ -1,0 +1,11 @@
+{
+    "name": "Reinforced alloy",
+    "colors": [
+      "368d98",
+      "d0f1fe"
+    ],
+    "ingredient": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "inUltimateSingularity": true
+  }

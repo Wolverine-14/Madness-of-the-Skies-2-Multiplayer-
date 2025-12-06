@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol"
+	group: "2BAFEAA6F82C275C"
+	id: "42B35B31D30DAE97"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Do you know how vanilla ender chest works ?"
+				"Good, it's the same but you can have separate with a color code"
+			]
+			id: "76BDEC51454F818A"
+			tasks: [
+				{
+					id: "735727163DA33FA2"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					id: "30803F7F260835D2"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["Trash, nothing more"]
+			id: "201911D79C5135F4"
+			tasks: [{
+				id: "1312B20A2BD00D5F"
+				item: "trashcans:ultimate_trash_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["Speed up the ticks around it"]
+			id: "2D1B6AA268C2DAB2"
+			tasks: [{
+				id: "07E0BBD08E7B488F"
+				item: "torcherino:torcherino"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Use the wand to save a block position then click on the entangled block with the wand to link."
+				"This block act as a worm hole"
+			]
+			id: "1725CBA9E4CCA7FB"
+			tasks: [
+				{
+					id: "753A2014A7CC23BE"
+					item: "entangled:item"
+					type: "item"
+				}
+				{
+					id: "3CC4901846C46FBD"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Shift to go down"
+				"Jump to go up"
+			]
+			id: "3D7DEC0AE44C2FB5"
+			tasks: [{
+				id: "6841722C01C36FA5"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Very useful, grow plant and seed in a small space without water"]
+			id: "75132633824A3C2B"
+			tasks: [{
+				id: "0D8642C2BBDD92B5"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Wireless energy network (RF)"]
+			id: "68C458D99B45881C"
+			tasks: [
+				{
+					id: "2FCBADC59561C4CC"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "68EB2D54FF008521"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "7C2E8ACA7D638B3A"
+			tasks: [{
+				id: "4B6CF9B4CE8E9D5E"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "QoL"
+}
