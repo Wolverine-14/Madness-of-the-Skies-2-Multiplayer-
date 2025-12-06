@@ -1800,8 +1800,9 @@ hash = "fd5aa059dd7e148e9ce801455b438425c0ad36537ce4b635edeb524900b15284"
 metafile = true
 
 [[files]]
-file = "mods/fastboot-1.20.x-1.2.jar"
-hash = "66c44b0648a3e3d4115c37593208b85668a97ce012355bad3d33f3cd8142a11f"
+file = "mods/fastboot.pw.toml"
+hash = "90558821151317c974d90f68fe86f61f5e9806ece7f0baf40ee1c23874b81acf"
+metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
