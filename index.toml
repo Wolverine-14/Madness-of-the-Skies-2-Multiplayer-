@@ -1358,7 +1358,7 @@ hash = "7e1bc86423c9c171dd4ed79df6298aa4dcec42be267a6370caedda71f4b21828"
 
 [[files]]
 file = "config/skyblockbuilder/world.json5"
-hash = "d9980827c1223ce077a19ea83e0bda3315c70b746e492e8a18c9aa529f13dcbb"
+hash = "7023195254f8d24c88440dc809c384b17c28876ca27ccdd45a5635ee00331af6"
 
 [[files]]
 file = "config/sodium-extra-options.json"
