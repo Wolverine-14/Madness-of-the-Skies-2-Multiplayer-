@@ -7,6 +7,9 @@ hash-format = "sha1"
 hash = "0820d6611bdf664cc84bf351089e75998a9f1962"
 mode = "metadata:curseforge"
 
+[option]
+optional = true
+
 [update]
 [update.curseforge]
 file-id = 5696829

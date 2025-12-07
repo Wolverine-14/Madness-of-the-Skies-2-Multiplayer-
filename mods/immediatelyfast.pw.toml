@@ -7,6 +7,9 @@ url = "https://cdn.modrinth.com/data/5ZwdcRci/versions/aFMmx5Ig/ImmediatelyFast-
 hash-format = "sha512"
 hash = "648cd5c451f8e5b4c7404179b75d4044aa14501c832a38e09877de74902e2ce3156af1cb936c91b48cd6210d1e576f0808142ca24a0d291990fdf245ff2da993"
 
+[option]
+optional = true
+
 [update]
 [update.modrinth]
 mod-id = "5ZwdcRci"
