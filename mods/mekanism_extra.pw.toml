@@ -1,13 +1,13 @@
 name = "Mekanism Extra"
-filename = "mekanism_extras-1.20.1-1.4.6.jar"
+filename = "mekanism_extras-1.20.1-1.4.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HUZkxNTQ/versions/eTwlYRNB/mekanism_extras-1.20.1-1.4.6.jar"
+url = "https://cdn.modrinth.com/data/HUZkxNTQ/versions/vuA8HkCe/mekanism_extras-1.20.1-1.4.4.jar"
 hash-format = "sha512"
-hash = "eda287280bb469415f4a5d54f32b943d7be6ea52b8e4d7804ad9b30a31c4333c08247b6f176d912a777cd6f480f65c70ad9c265cd86463fb7e04d526a6b3112b"
+hash = "042f0bba3f3b4d7a2448dcad4be590d53a563347e16db2583b1e44146913a7cee9dea4d8c41adc600605b754e5cea514a08c682bdb354db9d83bf2b0e210ad24"
 
 [update]
 [update.modrinth]
 mod-id = "HUZkxNTQ"
-version = "eTwlYRNB"
+version = "vuA8HkCe"
