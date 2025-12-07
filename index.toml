@@ -1541,7 +1541,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
+hash = "8bc1d73981d412c83f020d084b6bb73a10b87f7ebc417bf6a9ff6c9ef2198b5a"
 metafile = true
 
 [[files]]
