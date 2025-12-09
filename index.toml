@@ -2085,6 +2085,11 @@ hash = "f5e24f8162bbeeb07ac54645d02739a1264e2d84f776386b5e4ff78670fef906"
 metafile = true
 
 [[files]]
+file = "mods/openblocks-elevator.pw.toml"
+hash = "51bf17db22eee5fb80da0b2efe87b846f1165bafc67a789782c5fd976c406ffa"
+metafile = true
+
+[[files]]
 file = "mods/packmenu.pw.toml"
 hash = "2f8246fb91d5c6082f12f4a5e7540b0fb82be86cdd6809efa0cd3e67ee0bc7be"
 metafile = true
