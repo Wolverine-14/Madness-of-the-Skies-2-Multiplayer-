@@ -109,10 +109,6 @@ file = "config/ambientsounds-client.json"
 hash = "9f2a485ae010c93b014e45a70ea879c6b719a85345b077d5dd222cd02dd4fe0c"
 
 [[files]]
-file = "config/angelring-common.toml"
-hash = "ec9292fde722f8480cceb3604e4a7c835930eba6f99b0f1867ab896421049e26"
-
-[[files]]
 file = "config/appleskin-client.toml"
 hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
 
@@ -481,10 +477,6 @@ file = "config/ars_nouveau/wololo.toml"
 hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
-file = "config/attributeslib.cfg"
-hash = "fe85b449a9f8e1b5b74799822840aedfb5e2b8e269cbb1503f6d4c12a7a47fe7"
-
-[[files]]
 file = "config/balm-client.toml"
 hash = "76d9b5b7ec7c755c78d7047cb0e0bf5e318bb375a8fcdf3aef3cd335b2a008bf"
 
@@ -503,10 +495,6 @@ hash = "07e55bb5645a21e30392969aa5b2f8295a2bba660942cb5afa5b34a21ac65dea"
 [[files]]
 file = "config/botania_editor-client.toml"
 hash = "316c383747795d0096768536b2c55a8264a77f72fdc789501cd6cc90d8639abb"
-
-[[files]]
-file = "config/botanicadds.cfg"
-hash = "83974fbf00948d184c6b97fdd1943c80be5785d2f827a1d6972c7f35ba7e7553"
 
 [[files]]
 file = "config/botanicalmachinery/client.json5"
@@ -585,10 +573,6 @@ file = "config/constructionwand-client.toml"
 hash = "49dab16d69ef53b3846431d403918762dc0b22a4efba307c80894eeec64a1118"
 
 [[files]]
-file = "config/craftingstation-client.toml"
-hash = "ac6f3b0d3f54e87f2bfa1a7ee67f7e70c20d45fa24c08ddd66ad8d3c22e3c45e"
-
-[[files]]
 file = "config/craftingtweaks-common.toml"
 hash = "dc98bd1a2b4125946398c2375f52533a649aaee5e84a81517ed8ef55490a2872"
 
@@ -641,18 +625,6 @@ file = "config/defaultworldtype/world-presets.txt"
 hash = "b2f03258ca98aff3637ea4b64fe52efdfb8d997b78fa96d257df82abaed28552"
 
 [[files]]
-file = "config/embeddium-fingerprint.json"
-hash = "8f21d9106c1957d1f626a4f29638af7063104aaaa92847dcb6af7f0da15b6f41"
-
-[[files]]
-file = "config/embeddium-mixins.properties"
-hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
-
-[[files]]
-file = "config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
-
-[[files]]
 file = "config/enchdesc.json"
 hash = "69e1df6089b71c3c2fe2c7cf6760937094fd22434111f527229a9fcea3f90bc5"
 
@@ -679,10 +651,6 @@ hash = "c62ee1febcb9e8354a35e9f69a66787419d6d889ca848f7fd138a4c63cfed99f"
 [[files]]
 file = "config/entangled-common.toml"
 hash = "419e187d83bb43ef3dc1b50824a2a4b560747d27ddd64297120b16f5b0ea1562"
-
-[[files]]
-file = "config/expatternprovider-common.toml"
-hash = "7c073740724efdcd5f5c83d0b43a746f537c31b7ab7ca3564b9c4ae56c21a07b"
 
 [[files]]
 file = "config/extendedcrafting-client.toml"
@@ -875,10 +843,6 @@ hash = "40b155725656f6540be82453bbafc1a5aeb97d0d3fdd5426512797e6e3c41537"
 [[files]]
 file = "config/extendedcrafting/singularities/tin.json"
 hash = "d1d365e149244bbb1a73f902e53151e8831ef8b85f6dc21a09cb89c588f83982"
-
-[[files]]
-file = "config/extradisks-common.toml"
-hash = "7d7d20feff914c8cdccdad2115a5688d804c2b2d354b0de5b4e817278baf5af1"
 
 [[files]]
 file = "config/extremesoundmuffler-client.toml"
@@ -1177,10 +1141,6 @@ file = "config/mcjtylib-client.toml"
 hash = "d1e8040321a75d58a472dec80d22df4010ea5965e2e73dee1ddc28e2ff69cf36"
 
 [[files]]
-file = "config/megacells.json"
-hash = "b9d8a859859ce598ea852230e4d18726756f89b371c03dce59c9ffe5025318d2"
-
-[[files]]
 file = "config/mekanismcovers.json"
 hash = "d6dd0e83dc8903b9fad926cc47f0a02b8c446d7bac54a86c95900ed5d16c0cd6"
 
@@ -1345,34 +1305,6 @@ file = "config/skyblockbuilder/world.json5"
 hash = "7023195254f8d24c88440dc809c384b17c28876ca27ccdd45a5635ee00331af6"
 
 [[files]]
-file = "config/sodium-extra-options.json"
-hash = "fcbbbe7b2ec653da17b80dd0075afe1a57418560067d8936232d06b6dd998783"
-
-[[files]]
-file = "config/sodium-extra.properties"
-hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
-
-[[files]]
-file = "config/sophisticatedbackpacks-common.toml"
-hash = "6674ec92f625296aa8accc93d71fdf1eecfc8050111c5ae7b6d9a94b4fe14506"
-
-[[files]]
-file = "config/sophisticatedcore-client.toml"
-hash = "06813199751af809ce5043408f99066b30dccfa72b2597d74543dfa6b64e8d36"
-
-[[files]]
-file = "config/sophisticatedcore-common.toml"
-hash = "49bf84108c00e8317532a4c444ebd6cf5d282a9f21f223dad357e37de0baacac"
-
-[[files]]
-file = "config/storagedrawers-client.toml"
-hash = "327bfd458ff2b57c072af1f192bd8f828f5e91cd6d3551345ef13d1f599e2f78"
-
-[[files]]
-file = "config/storagedrawers-common.toml"
-hash = "c70908087cee12ca636ef72e3b95d1ae58fdf56f140cd448a06e546b6cfb3e8b"
-
-[[files]]
 file = "config/thermal-client.toml"
 hash = "36436c2d8e9cc35f54f353529d30f300e54818368f32227e2246d22744152ba2"
 
@@ -1389,10 +1321,6 @@ file = "config/titanium/titanium.toml"
 hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
 
 [[files]]
-file = "config/translocators.cfg"
-hash = "1b2083e6f687913a2913162431c7cc9a060d3cf056d95d8d2707ebcadfdced35"
-
-[[files]]
 file = "config/trashcans-common.toml"
 hash = "9098a40f3445da4e4e330750079d5629abe4632c211c6f8db11bb0dea829e5d8"
 
@@ -1403,10 +1331,6 @@ hash = "f5dd21c332e0ce0715a0e1cc5fca8967bf01eac5255243ddec30a7e632b94ad1"
 [[files]]
 file = "config/universalgrid-common.toml"
 hash = "7d56c7dd442add8066cf3dd40c4e8656b78b591a1bd41b8c9c7ae647c988de04"
-
-[[files]]
-file = "config/waystones-common.toml"
-hash = "f682e353825fc32e5de22d716e26f8a2f59163f1fb56638eb87fe401b44433f2"
 
 [[files]]
 file = "config/xnet-client.toml"

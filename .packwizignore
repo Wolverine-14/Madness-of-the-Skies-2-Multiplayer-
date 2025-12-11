@@ -3,3 +3,22 @@
 
 # Exclude README
 /README.md
+/config/angelring-common.toml
+/config/attributeslib.cfg
+/config/botanicadds.cfg
+/config/craftingstation-client.toml
+/config/embeddium-fingerprint.json
+/config/embeddium-mixins.properties
+/config/embeddium-options.json
+/config/expatternprovider-common.toml
+/config/extradisks-common.toml
+/config/megacells.json
+/config/sodium-extra-options.json
+/config/sodium-extra.properties
+/config/sophisticatedbackpacks-common.toml
+/config/sophisticatedcore-client.toml
+/config/sophisticatedcore-common.toml
+/config/storagedrawers-client.toml
+/config/storagedrawers-common.toml
+/config/translocators.cfg
+/config/waystones-common.toml
