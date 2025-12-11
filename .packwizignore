@@ -30,7 +30,7 @@
 /config/almostunified/debug.json
 /config/almostunified/duplicates.json
 /config/almostunified/startup.json
-/config/ars_nouveau
+#/config/ars_nouveau
 /config/ars_nouveau-client.toml
 /config/ars_nouveau-common.toml
 /config/botania-client.toml
@@ -74,8 +74,8 @@
 /config/immediatelyfast.json
 /config/industrialforegoing
 /config/industrialforegoingsouls/industrialforegoing-souls-client.toml
-/config/integrateddynamicscompat-common.toml
-/config/integratedtunnels-common.toml
+#/config/integrateddynamicscompat-common.toml
+#/config/integratedtunnels-common.toml
 /config/inventorysorter-client.toml
 /config/jei/jei-client.ini
 /config/jei/jei-colors.ini
