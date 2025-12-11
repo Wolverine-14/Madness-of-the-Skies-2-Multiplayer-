@@ -27,6 +27,9 @@
 
 #Exclude cooonfig files that are no different than the defaults
 /config/appleskin-client.toml
+/config/almostunified/debug.json
+/config/almostunified/duplicates.json
+/config/almostunified/startup.json
 /config/ars_nouveau
 /config/ars_nouveau-client.toml
 /config/ars_nouveau-common.toml
@@ -34,6 +37,10 @@
 /config/botania-common.toml
 /config/botania_editor-client.toml
 /config/botanicalmachinery
+/config/brandon3055/contributors.json
+/config/brandon3055/contributors.json.entag
+/config/brandon3055/hud_settings.json
+/config/brandon3055/ModuleStats.cfg
 /config/cabletiers-common.toml
 /config/ccl.cfg
 /config/cofh_core-client.toml
@@ -42,6 +49,7 @@
 /config/colorfulhearts.toml
 /config/configured-client.toml
 /config/constructionwand-client.toml
+/config/cristellib/minecraftP.json5
 /config/cucumber-client.toml
 /config/cucumber-common.toml
 /config/curios-client.toml
@@ -65,14 +73,31 @@
 /config/gravestone-client.toml
 /config/immediatelyfast.json
 /config/industrialforegoing
-/config/industrialforegoingsouls
+/config/industrialforegoingsouls/industrialforegoing-souls-client.toml
 /config/integrateddynamicscompat-common.toml
 /config/integratedtunnels-common.toml
 /config/inventorysorter-client.toml
+/config/jei/jei-client.ini
+/config/jei/jei-colors.ini
+/config/jei/jei-debug.ini
+/config/jei/jei-mod-id-format.ini
 /config/jeiintegration-client.toml
 /config/jeresources-common.toml
 /config/jeresources.toml
 /config/mcjtylib-client.toml
+/config/Mekanism/gear.toml
+/config/Mekanism/general.toml
+/config/Mekanism/generator-storage.toml
+/config/Mekanism/generators-gear.toml
+/config/Mekanism/machine-storage.toml
+/config/Mekanism/machine-usage.toml
+/config/Mekanism/tiers.toml
+/config/Mekanism/tools-client.toml
+/config/Mekanism/tools.toml
+/config/Mekanism/world.toml
+/config/MekanismExtras/extras_machine_storage.toml
+/config/MekanismExtras/extras_machine_usage.toml
+/config/MekanismExtras/generator_extras.toml
 /config/mekanismcovers.json
 /config/mekanismupgradesreborn-common.toml
 /config/mine_spawners_forge-config.toml
@@ -82,6 +107,11 @@
 /config/MouseTweaks.cfg
 /config/mysticaladaptations-common.toml
 /config/mysticalagriculture-client.toml
+/config/mysticalcustomization/crops
+/config/mysticalcustomization/configure-augments.json
+/config/mysticalcustomization/configure-mobsoultypes.json
+/config/mysticalcustomization/configure-tiers.json
+/config/mysticalcustomization/configure-typess.json
 /config/patchouli-client.toml
 /config/polymorph-integrations.toml
 /config/Qubik Studios Mods
@@ -89,6 +119,11 @@
 /config/rsrequestify-common.toml
 /config/sci4me
 /config/sidebar_buttons.json
+/config/skyblockbuilder/data
+/config/skyblockbuilder/customization.json5
+/config/skyblockbuilder/dimensions.json5
+/config/skyblockbuilder/inventory.json5
+/config/skyblockbuilder/spawn.json5
 /config/thermal-client.toml
 /config/titanium
 /config/trashcans-common.toml
