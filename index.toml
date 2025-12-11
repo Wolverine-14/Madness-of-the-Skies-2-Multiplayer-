@@ -81,6 +81,10 @@ file = "config/brandon3055/DraconicEvolution.cfg"
 hash = "aad8b2ec2f1e3159b75b15be93e67d8384d72d58ca01c60b84d76542a4746bb3"
 
 [[files]]
+file = "config/brandon3055/contributors.json"
+hash = "d311913d75def301b290ef9eaf11705ee10495f6611fbd0063882dd4f1d48bc7"
+
+[[files]]
 file = "config/brandon3055/contributors.json.etag"
 hash = "a2906a55fe7df5e7cd1bfa4d4726e12381dc49519ebc3211ff5d8a339c0cdbf7"
 
