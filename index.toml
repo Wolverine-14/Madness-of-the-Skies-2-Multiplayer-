@@ -9,8 +9,60 @@ file = "config/Mekanism/common.toml"
 hash = "32dd9b2e18b67a1e94026124000d720b36ddb24be092303141a4901f33d7b7c0"
 
 [[files]]
+file = "config/Mekanism/gear.toml"
+hash = "04a7c6e344d9f60ee95a5ddc4dfeccf7aab98df7120eb7a29d7f7dbb69ca4d08"
+
+[[files]]
+file = "config/Mekanism/general.toml"
+hash = "ed3012efc424ba4ea7555eb9c65eee84cbb7d07d0a74f2f7fef5b3cc2c51f694"
+
+[[files]]
+file = "config/Mekanism/generator-storage.toml"
+hash = "db6aa0b38e4dadfe9fae3970599c415d96058e1a47363180d63c647ccd20d084"
+
+[[files]]
+file = "config/Mekanism/generators-gear.toml"
+hash = "b3c50755f421aff5ba6b23a9b1aa8dddf9be0d200b363635134db3ee68e11338"
+
+[[files]]
 file = "config/Mekanism/generators.toml"
 hash = "c861d7b1b9438b6950d503a80e9e16cf64b010bf2688d2c3e003410590682560"
+
+[[files]]
+file = "config/Mekanism/machine-storage.toml"
+hash = "ade378e93c7dd046ee9317c424a3675784034ef23602b9d25a57c8a048face5f"
+
+[[files]]
+file = "config/Mekanism/machine-usage.toml"
+hash = "9b8b7a7532f4f5bfaa17613677a904a48b1503db660e22084949192b1945eb86"
+
+[[files]]
+file = "config/Mekanism/tiers.toml"
+hash = "c9bac7a9ff512efaf495ce5d89299a5c6533cecae11d3c87c9bc2a28595db77e"
+
+[[files]]
+file = "config/Mekanism/tools-client.toml"
+hash = "adf9f43d65b332f8212d72dd847cdd19ff3f92bd80dd072011adcc53758db747"
+
+[[files]]
+file = "config/Mekanism/tools.toml"
+hash = "6e82f7c5434e96eb928c6c9f1c3d4108dd07debc48001c4fa7a38689edcca032"
+
+[[files]]
+file = "config/Mekanism/world.toml"
+hash = "544ac46d6c31a23a028f6b871ff187fdf13aae57050c5d8b7dac3be5e10353b3"
+
+[[files]]
+file = "config/MekanismExtras/extras_machine_storage.toml"
+hash = "b559b9019b658b40f7d8a01e611d1c71260c7ded1c15444e98c63783dec3e794"
+
+[[files]]
+file = "config/MekanismExtras/extras_machine_usage.toml"
+hash = "b62998c3ffd053b50261d3167672a77b23b8fc35efd3d0ba5616aa2e53f9863b"
+
+[[files]]
+file = "config/MekanismExtras/generator_extras.toml"
+hash = "dd1e9316820c9d22a6676fdbc1049a9f1988130c9ee65e1518ea6dc6c6a1ccc5"
 
 [[files]]
 file = "config/MekanismExtras/mekanism_extras.toml"
@@ -487,6 +539,14 @@ hash = "6f89fedc6f37d5cd3eb87c4ba26e2ad65cd4d7add84c01c40cc3853b967dd22c"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "0d495049c53d1ddd0d63503ef47ed673adf784d23e818f5c7541720569548c0d"
+
+[[files]]
+file = "config/mekanismcovers.json"
+hash = "d6dd0e83dc8903b9fad926cc47f0a02b8c446d7bac54a86c95900ed5d16c0cd6"
+
+[[files]]
+file = "config/mekanismupgradesreborn-common.toml"
+hash = "7c6c68f727a1fb1542d7773ec548fe944cbea1e42f48df32a3d20070faa93532"
 
 [[files]]
 file = "config/moreoverlays.toml"
