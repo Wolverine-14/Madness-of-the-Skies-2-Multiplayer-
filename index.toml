@@ -602,7 +602,7 @@ hash = "e58e0a63459471c7754a99fd9579225b5bd24871fda743a8e12c9ad8f1f2fe52"
 
 [[files]]
 file = "kubejs/server_scripts/add.js"
-hash = "7280ea5d79ec828e5ed345c599d00f0da8d9ac39c2350385409050e88d1e50fb"
+hash = "fe0f6b35253c6ae1da1125aa1589a8b38617852b39c9e20a53bb1ad76a7a235a"
 
 [[files]]
 file = "kubejs/server_scripts/cable.js"

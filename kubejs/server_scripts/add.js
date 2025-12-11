@@ -447,7 +447,18 @@ ServerEvents.recipes(event => {
   }
  )
  event.custom(
-  {"type":"mekanism:metallurgic_infusing","chemicalInput":{"amount":20,"tag":"mekanism:redstone"},"itemInput":{"ingredient":{"item":"electrodynamics:circuitultimate"}},"output":{"item":"mekanism:basic_control_circuit"}}
+  {
+    "type":"mekanism:metallurgic_infusing",
+    "chemicalInput":{
+      "amount":20,"tag":"mekanism:redstone"
+    },
+    "itemInput":{
+      "ingredient":{"item":"electrodynamics:circuitultimate"}
+    },
+    "output":{
+      "item":"mekanism:basic_control_circuit"
+    }
+  }
  )
  event.custom(
   {
