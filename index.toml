@@ -1134,7 +1134,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "6dc3b746f88a599d734320edd072ecd5e95aebe8cc9ae691722b2c5647d2831a"
+hash = "6da427e65f60169cba78dbc17eec9437fbfbc8c0795b18b5985b7b03d75a6ef4"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1159,22 +1159,6 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "0d495049c53d1ddd0d63503ef47ed673adf784d23e818f5c7541720569548c0d"
-
-[[files]]
-file = "config/jei/world/local/New_World/bookmarks.ini"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/jei/world/local/New_World/lookupHistory.ini"
-hash = "a7927edfd8106f988a600ca0a8af6b062017a5ce316ba11d4df4fb3af3d7f76d"
-
-[[files]]
-file = "config/jei/world/local/New_World__1/bookmarks.ini"
-hash = "e1378ed498b7776f3039670bf2f12954a53c7ede607892178082afb9c525b8f3"
-
-[[files]]
-file = "config/jei/world/local/New_World__2/bookmarks.ini"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
